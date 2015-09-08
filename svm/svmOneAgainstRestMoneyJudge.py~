@@ -1,14 +1,24 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import re
-from sklearn.ensemble import RandomForestClassifier
+import re,numpy as np
+from sklearn import svm
 import pandas as pd
+
+from sklearn.datasets import load_digits
+from sklearn.multiclass import OneVsRestClassifier
+from sklearn.svm import SVC
+from sklearn.cross_validation import train_test_split
+from sklearn.metrics import accuracy_score
 
 training_data = []
 training_label = []
 predict_data = []
 predict_label = []
+
+C = 1.
+kernel = 'rbf'
+gamma  = 0.01
 
 num = 0
 df = pd.read_csv('../src/result.csv')
@@ -31,11 +41,17 @@ for row in numpyMatrix:
         predict_data.append(node)
         predict_label.append(label)
     num += 1
+    
+    if num >= 1000:
+        continue    
 
-predict_data = training_data
-model = RandomForestClassifier()
-model.fit(training_data, training_label)
-output = model.predict(predict_data)
+estimator = SVC(C=C, kernel=kernel, gamma=gamma)
+classifier = OneVsRestClassifier(estimator)
+classifier.fit(training_data, training_label)
+output = classifier.predict(predict_data)
+
+#model = svm.libsvm.fit( np.array( training_data ), np.float64( np.array( training_label ) ), kernel='linear' )
+#output = svm.libsvm.predict( np.array( predict_data ), *model,  **{'kernel' : 'linear'} )
 
 hit = 0
 total = len(output)
@@ -50,8 +66,9 @@ for i in range( 0, len(output) ) :
         hit -= 1
         total -= 1
         print "例外発生: %d" % i
-        
+
 accuracy = float(hit) / total
 print "hit = %ls" % hit 
 print "total = %ls" % total 
 print "accuracy = %lf" % accuracy
+

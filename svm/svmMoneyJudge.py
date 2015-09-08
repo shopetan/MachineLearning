@@ -11,11 +11,13 @@ predict_data = []
 predict_label = []
 
 num = 0
-df = pd.read_csv('test.csv')
+df = pd.read_csv('../src/result.csv')
 df = df.astype('float64')
-df = df.sort(columns='annu')
+df = df.sort(columns='annualpay')
 
 print df
+
+
 
 numpyMatrix = df.as_matrix()
 
@@ -39,10 +41,18 @@ hit = 0
 total = len(output)
 
 for i in range( 0, len(output) ) :
-    str = "ok" if( int( predict_label[i] ) == int( output[i] ) ) else "miss"
-    if str == "ok":
-        hit += 1
-    print "predict_label[%d] = %d ,output[%d] = %d" % (i,int(predict_label[i]),i,int(output[i]))
+    try:
+        str = "ok" if( int( predict_label[i] ) == int( output[i] ) ) else "miss"
+        if str == "ok":
+            hit += 1
+            print "predict_label[%d] = %d ,output[%d] = %d" % (i,int(predict_label[i]),i,int(output[i]))
+    except IndexError:
+        hit -= 1
+        total -= 1
+        print "例外発生: %d" % i
 
 accuracy = float(hit) / total
+print "hit = %ls" % hit 
+print "total = %ls" % total 
 print "accuracy = %lf" % accuracy
+

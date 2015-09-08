@@ -1,14 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import re,numpy as np
-from sklearn import svm
+import re
+from sklearn.ensemble import RandomForestClassifier
 
 training_label = []
 training_data = []
 predict_label = []
 predict_data = []
 num = 0
+
 file = open( './iris.scale' , 'r' )
 for line in file :
     line = line.rstrip()
@@ -21,7 +22,7 @@ for line in file :
             if match is None :
                 node.append(0) 
             else:
-                node.append( float( match ) )
+                node.append(match)
         except AttributeError :
             node.append(0)
             continue
@@ -33,9 +34,11 @@ for line in file :
         predict_label.append( label )
     num = num + 1
 
-model = svm.libsvm.fit( np.array( training_data ), np.float64( np.array( training_label ) ), kernel='linear' )
-output = svm.libsvm.predict( np.array( predict_data ), *model,  **{'kernel' : 'linear'} )
+predict_data = training_data
+model = RandomForestClassifier()
+model.fit(training_data, training_label)
+output = model.predict(predict_data)
 
-for i in range( 0, len(output) ) :
+for i in range( 0,len( output ) ) :
     str = "ok" if( int( predict_label[i] ) == int( output[i] ) ) else "miss"
     print "predict %s id = %d" % ( str, i )
