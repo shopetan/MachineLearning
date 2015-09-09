@@ -4,6 +4,8 @@
 import re
 from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
+from sklearn.metrics import accuracy_score
+
 
 training_data = []
 training_label = []
@@ -50,6 +52,8 @@ for i in range( 0, len(output) ) :
         hit -= 1
         total -= 1
         print "例外発生: %d" % i
+
+print accuracy_score(predict_label, output)
         
 accuracy = float(hit) / total
 print "hit = %ls" % hit 
