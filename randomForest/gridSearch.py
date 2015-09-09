@@ -4,12 +4,10 @@
 import re
 import numpy as np
 import pandas as pd
-from sklearn import svm
-from sklearn.datasets import load_digits
-from sklearn.multiclass import OneVsRestClassifier
-from sklearn.svm import SVC
-from sklearn.cross_validation import train_test_split
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
+from sklearn import grid_search
+from sklearn.grid_search import GridSearchCV
 
 
 def importCSV(csvSrcPath):
@@ -33,9 +31,6 @@ def outputPredictResult():
             resultPredictLabel[i])) else "miss"
         print "%s:testLabel[%d] = %d ,predictLabel[%d] = %d" % (str, i, int(testLabel[i]), i, int(resultPredictLabel[i]))
 
-C = 1.
-kernel = 'rbf'
-gamma = 0.01
 sortColumn = 'annualpay'
 
 trainingCsvSrcPath = '../src/result.csv'
@@ -49,9 +44,15 @@ testData = [[row[0], row[1]]
             for i, row in enumerate(trainingMatrix) if i % 2 != 0]
 testLabel = [row[2] for i, row in enumerate(trainingMatrix) if i % 2 != 0]
 
-estimator = SVC(C=C, kernel=kernel, gamma=gamma)
-classifier = OneVsRestClassifier(estimator)
-classifier.fit(trainingData, trainingLabel)
-resultPredictLabel = classifier.predict(testData)
+parameters = {
+        'n_estimators'      : [5, 10, 20, 30, 50, 100, 300],
+        'random_state'      : [0],
+        'n_jobs'            : [1],
+        'min_samples_split' : [3, 5, 10, 15, 20, 25, 30, 40, 50, 100],
+        'max_depth'         : [3, 5, 10, 15, 20, 25, 30, 40, 50, 100]
+}
+clf = grid_search.GridSearchCV(RandomForestClassifier(), parameters)
+clf.fit(trainingData, trainingLabel)
 
-print "accuracy_score = %lf" % accuracy_score(testLabel, resultPredictLabel)
+print(clf.best_estimator_)
+

@@ -3,6 +3,7 @@
 
 import re
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
 
 training_label = []
 training_data = []
@@ -10,7 +11,7 @@ predict_label = []
 predict_data = []
 num = 0
 
-file = open( './iris.scale' , 'r' )
+file = open( '../src/iris.scale' , 'r' )
 for line in file :
     line = line.rstrip()
     node = []
@@ -34,7 +35,6 @@ for line in file :
         predict_label.append( label )
     num = num + 1
 
-predict_data = training_data
 model = RandomForestClassifier()
 model.fit(training_data, training_label)
 output = model.predict(predict_data)
@@ -42,3 +42,4 @@ output = model.predict(predict_data)
 for i in range( 0,len( output ) ) :
     str = "ok" if( int( predict_label[i] ) == int( output[i] ) ) else "miss"
     print "predict %s id = %d" % ( str, i )
+print "accuracy_score = %lf" % accuracy_score(predict_label, output)

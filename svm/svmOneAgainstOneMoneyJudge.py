@@ -4,7 +4,11 @@
 import re
 import numpy as np
 import pandas as pd
-from sklearn.ensemble import RandomForestClassifier
+from sklearn import svm
+from sklearn.datasets import load_digits
+from sklearn.multiclass import OneVsRestClassifier
+from sklearn.svm import SVC
+from sklearn.cross_validation import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn import grid_search
 from sklearn.grid_search import GridSearchCV
@@ -21,13 +25,6 @@ def dataFrameToMatrix(dataFrame):
     return matrix
 
 
-def exportToCSV(DataFrame,label):
-    print DataFrame
-    DataFrame.to_csv("test.csv")
-    df = pd.Series(label,name="annualpay")
-    DataFrame = DataFrame.T.append(df).T
-    DataFrame.to_csv("predict.csv")
-
 # 詳細なテスト結果を表示する
 # テストデータの答えがわかっている時に使える(setSampleData()を使っている時に利用できる)
 
@@ -37,6 +34,10 @@ def outputPredictResult():
         str = "ok" if(int(testLabel[i]) == int(
             resultPredictLabel[i])) else "miss"
         print "%s:testLabel[%d] = %d ,predictLabel[%d] = %d" % (str, i, int(testLabel[i]), i, int(resultPredictLabel[i]))
+
+C = 1.
+kernel = 'rbf'
+gamma = 0.01
 
 trainingCsvSrcPath = '../src/result.csv'
 trainingDataFrame = importCSV(trainingCsvSrcPath)
@@ -58,9 +59,10 @@ if CheckaccuracyFlag == True:
                 for i, row in enumerate(testMatrix)if i % 2 != 0]
     testLabel = [row[2] for i, row in enumerate(testMatrix) if i % 2 != 0]
 
-    model = RandomForestClassifier(bootstrap=True, compute_importances=None,criterion='gini', max_depth=10, max_features='auto',min_density=None, min_samples_leaf=1, min_samples_split=100,n_estimators=30, n_jobs=1, oob_score=False, random_state=0,verbose=0)
-    model.fit(trainingData, trainingLabel)
-    resultPredictLabel = model.predict(testData)
+    classifier = SVC(C=C, kernel=kernel, gamma=gamma)
+    classifier.fit(trainingData, trainingLabel)
+    resultPredictLabel = classifier.predict(testData)
+
     print "accuracy_score = %lf" % accuracy_score(testLabel, resultPredictLabel)
 
 else:
@@ -69,9 +71,23 @@ else:
     trainingLabel = [row[2] for i, row in enumerate(trainingMatrix)]
     testData = [[row[1], row[2]]
                 for i, row in enumerate(testMatrix)]
-    model = RandomForestClassifier(bootstrap=True, compute_importances=None,criterion='gini', max_depth=10, max_features='auto',min_density=None, min_samples_leaf=1, min_samples_split=100,n_estimators=30, n_jobs=1, oob_score=False, random_state=0,verbose=0)
-    model.fit(trainingData, trainingLabel)
-    resultPredictLabel = model.predict(testData)
+    classifier = SVC(C=C, kernel=kernel, gamma=gamma)
+    classifier.fit(trainingData, trainingLabel)
+    resultPredictLabel = classifier.predict(testData)
 
     exportToCSV(testDataFrame,resultPredictLabel)
+
+
+
+
+"""
+tuned_parameters = [{'kernel': ['rbf'], 
+                     'gamma': [1e-3, 1e-4],
+                     'C': [1, 10, 100, 1000]},
+                    {'kernel': ['linear'], 
+                     'C': [1, 10, 100, 1000]}]
+
+clf = GridSearchCV(SVC(C=1), tuned_parameters, cv=5, scoring='accuracy', n_jobs=-1)
+clf.fit(trainingData, trainingLabel)
+"""
 
