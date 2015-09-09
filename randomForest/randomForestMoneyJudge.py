@@ -6,56 +6,94 @@ from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
 from sklearn.metrics import accuracy_score
 
+# GlobalVariable
+trainingData = []
+trainingLabel = []
+testData = []
+testLabel = []
 
-training_data = []
-training_label = []
-predict_data = []
-predict_label = []
+def importCSV(csvSrc):
+    dataFrame = pd.read_csv(csvSrc)
+    return dataFrame
 
-num = 0
-df = pd.read_csv('../src/result.csv')
-df = df.astype('float64')
-df = df.sort(columns='annualpay')
+def dataFrameToMatrix(dataFrame):
+    dataFrame = dataFrame.astype('float64')
+    dataFrame = dataFrame.sort(columns='annualpay')
+    numpyMatrix = dataFrame.as_matrix()
+    return numpyMatrix
+    
+#サンプルデータを一括してトレーニングデータとテストデータに分けてセットしたい場合に使う
+#これは単純に学習させて精度を見たい時に用いるので、実際に予測をしたい場合は
+# setTrainingData()とsetPredictDataを個別にセットする必要がある。
+def setSampleData():
+    global trainingData
+    global trainingLabel
+    global testData
+    global testLabel
+    num = 0
+    
+    for row in numpyMatrix:
+        node = []
+        label = row[2]
+        node.append(row[0])
+        node.append(row[1])
+        if num % 2 == 0:
+            trainingData.append(node)
+            trainingLabel.append(label)
+        else:
+            testData.append(node)
+            testLabel.append(label)
+        num += 1
+    if len(trainingLabel) != len(testLabel):
+        trainingData.pop(1)
+        trainingLabel.pop(1)
 
-print df
+#トレーニングデータをセット
+# TODO:教師データのチューニング方法
+def setTrainingData():
+    global trainingData
+    global trainingLabel
+    num = 0
+    
+    for row in numpyMatrix:
+        node = []
+        label = row[2]
+        node.append(row[0])
+        node.append(row[1])
+        if num % 2 == 0:
+            trainingData.append(node)
+            trainingLabel.append(label)
+        num += 1
 
-numpyMatrix = df.as_matrix()
+#予測するためのデータをセット
+def setPredictData():
+    global testData
+    global testLabel
+    num = 0
+    
+    for row in numpyMatrix:
+        node = []
+        label = row[2]
+        node.append(row[0])
+        node.append(row[1])
+        testData.append(node)
+        num += 1
 
-for row in numpyMatrix:
-    node = []
-    label = row[2]
-    node.append(row[0])
-    node.append(row[1])
-    if num % 2 == 0:
-        training_data.append(node)
-        training_label.append(label)
-    else:
-        predict_data.append(node)
-        predict_label.append(label)
-    num += 1
+# 詳細なテスト結果を表示する
+# テストデータの答えがわかっている時に使える(setSampleData()を使っている時に利用できる)
+def outputPredictResult():
+    for i in range( 0, len(resultPredictLabel) ) :
+        str = "ok" if( int( testLabel[i] ) == int( resultPredictLabel[i] ) ) else "miss"
+        print "%s:testLabel[%d] = %d ,learningLabel[%d] = %d" % (str,i,int(testLabel[i]),i,int(resultPredictLabel[i]))
 
-predict_data = training_data
+csvSrc = '../src/result.csv'
+dataFrame = importCSV(csvSrc)
+numpyMatrix = dataFrameToMatrix(dataFrame)
+setSampleData()
+testData = trainingData
 model = RandomForestClassifier()
-model.fit(training_data, training_label)
-output = model.predict(predict_data)
+model.fit(trainingData, trainingLabel)
+resultPredictLabel = model.predict(testData)
 
-hit = 0
-total = len(output)
-
-for i in range( 0, len(output) ) :
-    try:
-        str = "ok" if( int( predict_label[i] ) == int( output[i] ) ) else "miss"
-        if str == "ok":
-            hit += 1
-            print "predict_label[%d] = %d ,output[%d] = %d" % (i,int(predict_label[i]),i,int(output[i]))
-    except IndexError:
-        hit -= 1
-        total -= 1
-        print "例外発生: %d" % i
-
-print accuracy_score(predict_label, output)
-        
-accuracy = float(hit) / total
-print "hit = %ls" % hit 
-print "total = %ls" % total 
-print "accuracy = %lf" % accuracy
+outputPredictResult()
+print "accuracy_score = %lf" % accuracy_score(testLabel, resultPredictLabel)

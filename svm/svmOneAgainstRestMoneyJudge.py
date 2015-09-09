@@ -2,9 +2,8 @@
 # -*- coding: utf-8 -*-
 
 import re,numpy as np
-from sklearn import svm
 import pandas as pd
-
+from sklearn import svm
 from sklearn.datasets import load_digits
 from sklearn.multiclass import OneVsRestClassifier
 from sklearn.svm import SVC
