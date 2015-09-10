@@ -1,105 +1,121 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import re,numpy as np
+import re
+import numpy as np
 import pandas as pd
+import itertools as it
 from sklearn import svm
+from sklearn.datasets import load_digits
+from sklearn.multiclass import OneVsRestClassifier
+from sklearn.svm import SVC
+from sklearn.cross_validation import train_test_split
 from sklearn.metrics import accuracy_score
 
 
-# GlobalVariable
-trainingData = []
-trainingLabel = []
-testData = []
-testLabel = []
-
-def importCSV(csvSrc):
-    dataFrame = pd.read_csv(csvSrc)
+def importCSV(csvSrcPath):
+    dataFrame = pd.read_csv(csvSrcPath)
     return dataFrame
+
 
 def dataFrameToMatrix(dataFrame):
     dataFrame = dataFrame.astype('float64')
-    dataFrame = dataFrame.sort(columns='annu')
-    numpyMatrix = dataFrame.as_matrix()
-    return numpyMatrix
-    
-#サンプルデータを一括してトレーニングデータとテストデータに分けてセットしたい場合に使う
-#これは単純に学習させて精度を見たい時に用いるので、実際に予測をしたい場合は
-# setTrainingData()とsetPredictDataを個別にセットする必要がある。
-def setSampleData():
-    global trainingData
-    global trainingLabel
-    global testData
-    global testLabel
-    num = 0
-    
-    for row in numpyMatrix:
-        node = []
-        label = row[2]
-        node.append(row[0])
-        node.append(row[1])
-        if num % 2 == 0:
-            trainingData.append(node)
-            trainingLabel.append(label)
-        else:
-            testData.append(node)
-            testLabel.append(label)
-        num += 1
+    matrix = dataFrame.as_matrix()
+    return matrix
 
-#トレーニングデータをセット
-# TODO:教師データのチューニング方法
-def setTrainingData():
-    global trainingData
-    global trainingLabel
-    num = 0
+
+def toDataElement(row):
+    return [row[0], row[2], row[3], row[4]]
+
+
+def toLabelElement(row):
+    return row[1]
+
+
+def svmOneAgainstOne(trainingData,trainingLabel,testData):
+    C = 1.
+    kernel = 'rbf'
+    gamma = 0.01
+
+    classifier = SVC(C=C, kernel=kernel, gamma=gamma)
+    classifier.fit(trainingData, trainingLabel)
+    resultPredictLabel = classifier.predict(testData)
+    return resultPredictLabel
+
+
+def svmOneAgainstRest(trainingData,trainingLabel,testData):
+    C = 1.
+    kernel = 'rbf'
+    gamma = 0.01
+
+    classifier = SVC(C=C, kernel=kernel, gamma=gamma)
+    classifier.fit(trainingData, trainingLabel)
+    resultPredictLabel = classifier.predict(testData)
+    return resultPredictLabel
+
+
+def svmGridSearch(trainingData,trainingLabel):
+    tuned_parameters = [{'kernel': ['rbf'], 
+                         'gamma': [1e-3, 1e-4],
+                         'C': [1, 10, 100, 1000]},
+                        {'kernel': ['linear'], 
+                         'C': [1, 10, 100, 1000]}]
     
-    for row in numpyMatrix:
-        node = []
-        label = row[2]
-        node.append(row[0])
-        node.append(row[1])
-        if num % 2 == 0:
-            trainingData.append(node)
-            trainingLabel.append(label)
-        num += 1
+    clf = GridSearchCV(SVC(C=1), tuned_parameters, cv=5, scoring='accuracy', n_jobs=-1)
+    clf.fit(trainingData, trainingLabel)
+    print(clf.best_estimator_)
 
-#予測するためのデータをセット
-def setPredictData():
-    global testData
-    global testLabel
-    num = 0
+
+def getAccuracy(trainingMatrix,testMatrix):
+    trainingData = [toDataElement(row)
+                    for row in it.islice(trainingMatrix, 0, None, 2)]
+    trainingLabel = [toLabelElement(row)
+                     for row in it.islice(trainingMatrix, 0, None, 2)]
+    testData = [toDataElement(row)
+                for row in it.islice(testMatrix, 1, None, 2)]
+    testLabel = [toLabelElement(row)
+                 for row in it.islice(testMatrix, 1, None, 2)]
+    resultPredictLabel = svmOneAgainstOne(trainingData,trainingLabel,testData)
     
-    for row in numpyMatrix:
-        node = []
-        label = row[2]
-        node.append(row[0])
-        node.append(row[1])
-        testData.append(node)
-        num += 1
+    print "accuracy_score = %lf" % accuracy_score(testLabel, resultPredictLabel)
 
-# svmにfitする形にmodelをセットする
-def setLibSvmModel():
-    model = svm.libsvm.fit( np.array( trainingData ), np.float64( np.array( trainingLabel ) ), kernel='linear' )
-    return model
 
-#modelを基に予測結果を出力する関数
-def setSvmPredictLabelResult(model):
-    predictLabel = svm.libsvm.predict( np.array( testData ), *model,  **{'kernel' : 'linear'} )    
-    return predictLabel
+def getPredictFile(trainingMatrix,testMatrix):    
+    trainingData = [toDataElement(row)
+                    for row in trainingMatrix]
+    trainingLabel = [toLabelElement(row)
+                     for row in trainingMatrix]
+    testData = [toDataElement(row)
+                for row in testMatrix]
+    resultPredictLabel = svmOneAgainstOne(trainingData,trainingLabel,testData)
+    exportToCSV(testDataFrame, resultPredictLabel)
+
 
 # 詳細なテスト結果を表示する
 # テストデータの答えがわかっている時に使える(setSampleData()を使っている時に利用できる)
+
+
 def outputPredictResult():
-    for i in range( 0, len(resultPredictLabel) ) :
-        str = "ok" if( int( testLabel[i] ) == int( resultPredictLabel[i] ) ) else "miss"
-        print "testLabel[%d] = %d ,learningLabel[%d] = %d" % (i,int(testLabel[i]),i,int(resultPredictLabel[i]))
+    for i in range(0, len(resultPredictLabel)):
+        str = "ok" if(int(testLabel[i]) == int(
+            resultPredictLabel[i])) else "miss"
+        print "%s:testLabel[%d] = %d ,predictLabel[%d] = %d" % (str, i, int(testLabel[i]), i, int(resultPredictLabel[i]))
 
+trainingCsvSrcPath = '../src/training_5column_apper.csv'
+trainingDataFrame = importCSV(trainingCsvSrcPath)
+trainingMatrix = dataFrameToMatrix(trainingDataFrame)
 
-csvSrc = '../src/test.csv'
-dataFrame = importCSV(csvSrc)
-numpyMatrix = dataFrameToMatrix(dataFrame)
-setSampleData()
-model = setLibSvmModel()
-resultPredictLabel = setSvmPredictLabelResult(model)
-outputPredictResult()
-print "accuracy_score = %lf" % accuracy_score(testLabel, resultPredictLabel)
+testCsvSrcPath = '../src/training_5column_apper.csv'
+testDataFrame = importCSV(testCsvSrcPath)
+testMatrix = dataFrameToMatrix(testDataFrame)
+
+# True: トレーニングデータとテストデータを同じ割合で喰わせて精度比較を行う
+# False:トレーニングデータとテストデータは別々で、予測結果をCSVファイルで出力
+isAccuracy = True
+
+if isAccuracy:
+    getAccuracy(trainingMatrix,testMatrix)
+
+else:
+    getPredictFile(trainingMatrix,testMatrix)
+
