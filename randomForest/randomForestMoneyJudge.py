@@ -23,10 +23,9 @@ def dataFrameToMatrix(dataFrame):
 
 def exportToCSV(DataFrame,label):
     print DataFrame
-    DataFrame.to_csv("test.csv")
     df = pd.Series(label,name="annualpay")
     DataFrame = DataFrame.T.append(df).T
-    DataFrame.to_csv("predict.csv")
+    DataFrame.to_csv("predict_randomForest.csv")
 
 # 詳細なテスト結果を表示する
 # テストデータの答えがわかっている時に使える(setSampleData()を使っている時に利用できる)
@@ -42,15 +41,15 @@ trainingCsvSrcPath = '../src/result.csv'
 trainingDataFrame = importCSV(trainingCsvSrcPath)
 trainingMatrix = dataFrameToMatrix(trainingDataFrame)
 
-testCsvSrcPath = '../src/result.csv'
+testCsvSrcPath = '../src/result_test_data.csv'
 testDataFrame = importCSV(testCsvSrcPath)
 testMatrix = dataFrameToMatrix(testDataFrame)
 
 # True: トレーニングデータとテストデータを同じ割合で喰わせて精度比較を行う
 # False:トレーニングデータとテストデータは別々で、予測結果をCSVファイルで出力
-CheckaccuracyFlag = True
+CheckAccuracyFlag = False
 
-if CheckaccuracyFlag == True:
+if CheckAccuracyFlag == True:
     trainingData = [[row[0], row[1]]
                     for i, row in enumerate(trainingMatrix)if i % 2 == 0]
     trainingLabel = [row[2] for i, row in enumerate(trainingMatrix)if i % 2 == 0]
@@ -58,7 +57,12 @@ if CheckaccuracyFlag == True:
                 for i, row in enumerate(testMatrix)if i % 2 != 0]
     testLabel = [row[2] for i, row in enumerate(testMatrix) if i % 2 != 0]
 
-    model = RandomForestClassifier(bootstrap=True, compute_importances=None,criterion='gini', max_depth=10, max_features='auto',min_density=None, min_samples_leaf=1, min_samples_split=100,n_estimators=30, n_jobs=1, oob_score=False, random_state=0,verbose=0)
+    model = RandomForestClassifier(bootstrap=True, compute_importances=None,
+                                   criterion='gini', max_depth=10, 
+                                   max_features='auto',min_density=None, 
+                                   min_samples_leaf=1, min_samples_split=100,
+                                   n_estimators=30, n_jobs=1, oob_score=False, 
+                                   random_state=0,verbose=0)
     model.fit(trainingData, trainingLabel)
     resultPredictLabel = model.predict(testData)
     print "accuracy_score = %lf" % accuracy_score(testLabel, resultPredictLabel)
@@ -67,9 +71,14 @@ else:
     trainingData = [[row[0], row[1]]
                     for i, row in enumerate(trainingMatrix)]
     trainingLabel = [row[2] for i, row in enumerate(trainingMatrix)]
-    testData = [[row[1], row[2]]
+    testData = [[row[0], row[1]]
                 for i, row in enumerate(testMatrix)]
-    model = RandomForestClassifier(bootstrap=True, compute_importances=None,criterion='gini', max_depth=10, max_features='auto',min_density=None, min_samples_leaf=1, min_samples_split=100,n_estimators=30, n_jobs=1, oob_score=False, random_state=0,verbose=0)
+    model = RandomForestClassifier(bootstrap=True, compute_importances=None,
+                                   criterion='gini', max_depth=10, 
+                                   max_features='auto',min_density=None, 
+                                   min_samples_leaf=1, min_samples_split=100,
+                                   n_estimators=30, n_jobs=1, oob_score=False, 
+                                   random_state=0,verbose=0)
     model.fit(trainingData, trainingLabel)
     resultPredictLabel = model.predict(testData)
 
