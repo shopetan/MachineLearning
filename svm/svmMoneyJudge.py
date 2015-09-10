@@ -24,11 +24,25 @@ def dataFrameToMatrix(dataFrame):
     return matrix
 
 
-def toDataElement(row):
-    return [row[0], row[2], row[3], row[4]]
+def exportToCSV(DataFrame, label):
+    df = pd.Series(label, name="annualpay")
+    DataFrame = DataFrame.T.append(df).T
+    DataFrame.to_csv("predict_svm.csv")
 
 
-def toLabelElement(row):
+def toTrainingDataElement(row):
+    return [row[0], row[2], row[3], row[4],row[5]]
+
+
+def toTrainingLabelElement(row):
+    return row[1]
+
+
+def toTestDataElement(row):
+    return [row[0], row[2], row[3], row[4],row[5]]
+
+
+def toTestLabelElement(row):
     return row[1]
 
 
@@ -67,27 +81,27 @@ def svmGridSearch(trainingData,trainingLabel):
 
 
 def getAccuracy(trainingMatrix,testMatrix):
-    trainingData = [toDataElement(row)
+    trainingData = [toTrainingDataElement(row)
                     for row in it.islice(trainingMatrix, 0, None, 2)]
-    trainingLabel = [toLabelElement(row)
+    trainingLabel = [toTrainingLabelElement(row)
                      for row in it.islice(trainingMatrix, 0, None, 2)]
-    testData = [toDataElement(row)
+    testData = [toTestDataElement(row)
                 for row in it.islice(testMatrix, 1, None, 2)]
-    testLabel = [toLabelElement(row)
+    testLabel = [toTestLabelElement(row)
                  for row in it.islice(testMatrix, 1, None, 2)]
-    resultPredictLabel = svmOneAgainstOne(trainingData,trainingLabel,testData)
+    resultPredictLabel = randomForest(trainingData,trainingLabel,testData)
     
     print "accuracy_score = %lf" % accuracy_score(testLabel, resultPredictLabel)
 
 
 def getPredictFile(trainingMatrix,testMatrix):    
-    trainingData = [toDataElement(row)
+    trainingData = [toTrainingDataElement(row)
                     for row in trainingMatrix]
-    trainingLabel = [toLabelElement(row)
+    trainingLabel = [toTrainingLabelElement(row)
                      for row in trainingMatrix]
-    testData = [toDataElement(row)
+    testData = [toTestDataElement(row)
                 for row in testMatrix]
-    resultPredictLabel = svmOneAgainstOne(trainingData,trainingLabel,testData)
+    resultPredictLabel = randomForest(trainingData,trainingLabel,testData)
     exportToCSV(testDataFrame, resultPredictLabel)
 
 
@@ -101,11 +115,11 @@ def outputPredictResult():
             resultPredictLabel[i])) else "miss"
         print "%s:testLabel[%d] = %d ,predictLabel[%d] = %d" % (str, i, int(testLabel[i]), i, int(resultPredictLabel[i]))
 
-trainingCsvSrcPath = '../src/training_5column_apper.csv'
+trainingCsvSrcPath = '../csv/training_6column.csv'
 trainingDataFrame = importCSV(trainingCsvSrcPath)
 trainingMatrix = dataFrameToMatrix(trainingDataFrame)
 
-testCsvSrcPath = '../src/training_5column_apper.csv'
+testCsvSrcPath = '../csv/training_6column.csv'
 testDataFrame = importCSV(testCsvSrcPath)
 testMatrix = dataFrameToMatrix(testDataFrame)
 

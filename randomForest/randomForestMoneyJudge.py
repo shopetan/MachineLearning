@@ -23,17 +23,24 @@ def dataFrameToMatrix(dataFrame):
 
 
 def exportToCSV(DataFrame, label):
-    print DataFrame
     df = pd.Series(label, name="annualpay")
     DataFrame = DataFrame.T.append(df).T
     DataFrame.to_csv("predict_randomForest.csv")
 
 
-def toDataElement(row):
-    return [row[0], row[2], row[3], row[4]]
+def toTrainingDataElement(row):
+    return [row[0], row[2], row[3], row[4],row[5]]
 
 
-def toLabelElement(row):
+def toTrainingLabelElement(row):
+    return row[1]
+
+
+def toTestDataElement(row):
+    return [row[0], row[2], row[3], row[4],row[5]]
+
+
+def toTestLabelElement(row):
     return row[1]
 
 
@@ -64,13 +71,13 @@ def randomForestGridSearch(trainingData,trainingLabel):
 
 
 def getAccuracy(trainingMatrix,testMatrix):
-    trainingData = [toDataElement(row)
+    trainingData = [toTrainingDataElement(row)
                     for row in it.islice(trainingMatrix, 0, None, 2)]
-    trainingLabel = [toLabelElement(row)
+    trainingLabel = [toTrainingLabelElement(row)
                      for row in it.islice(trainingMatrix, 0, None, 2)]
-    testData = [toDataElement(row)
+    testData = [toTestDataElement(row)
                 for row in it.islice(testMatrix, 1, None, 2)]
-    testLabel = [toLabelElement(row)
+    testLabel = [toTestLabelElement(row)
                  for row in it.islice(testMatrix, 1, None, 2)]
     resultPredictLabel = randomForest(trainingData,trainingLabel,testData)
     
@@ -78,11 +85,11 @@ def getAccuracy(trainingMatrix,testMatrix):
 
 
 def getPredictFile(trainingMatrix,testMatrix):    
-    trainingData = [toDataElement(row)
+    trainingData = [toTrainingDataElement(row)
                     for row in trainingMatrix]
-    trainingLabel = [toLabelElement(row)
+    trainingLabel = [toTrainingLabelElement(row)
                      for row in trainingMatrix]
-    testData = [toDataElement(row)
+    testData = [toTestDataElement(row)
                 for row in testMatrix]
     resultPredictLabel = randomForest(trainingData,trainingLabel,testData)
     exportToCSV(testDataFrame, resultPredictLabel)
@@ -99,11 +106,11 @@ def outputPredictResult():
         print "%s:testLabel[%d] = %d ,predictLabel[%d] = %d" % (str, i, int(testLabel[i]), i, int(resultPredictLabel[i]))
 
 
-trainingCsvSrcPath = '../src/training_5column_apper_apper.csv'
+trainingCsvSrcPath = '../csv/training_6column.csv'
 trainingDataFrame = importCSV(trainingCsvSrcPath)
 trainingMatrix = dataFrameToMatrix(trainingDataFrame)
 
-testCsvSrcPath = '../src/training_5column_apper_apper.csv'
+testCsvSrcPath = '../csv/training_6column.csv'
 testDataFrame = importCSV(testCsvSrcPath)
 testMatrix = dataFrameToMatrix(testDataFrame)
 
