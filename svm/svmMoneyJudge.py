@@ -89,7 +89,7 @@ def getAccuracy(trainingMatrix,testMatrix):
                 for row in it.islice(testMatrix, 1, None, 2)]
     testLabel = [toTestLabelElement(row)
                  for row in it.islice(testMatrix, 1, None, 2)]
-    resultPredictLabel = randomForest(trainingData,trainingLabel,testData)
+    resultPredictLabel = svmOneAgainstOne(trainingData,trainingLabel,testData)
     
     print "accuracy_score = %lf" % accuracy_score(testLabel, resultPredictLabel)
 
@@ -101,7 +101,7 @@ def getPredictFile(trainingMatrix,testMatrix):
                      for row in trainingMatrix]
     testData = [toTestDataElement(row)
                 for row in testMatrix]
-    resultPredictLabel = randomForest(trainingData,trainingLabel,testData)
+    resultPredictLabel = svmOneAgainstOne(trainingData,trainingLabel,testData)
     exportToCSV(testDataFrame, resultPredictLabel)
 
 
