@@ -1,200 +1,200 @@
-0.302*"world" + 0.215*"freedom" + 0.198*"security" + 0.193*"development" + 0.185*"trade" + 0.176*"work" + 0.171*"help" + 0.168*"use" + 0.162*"terrorism" + 0.151*"war"
-0.976*"|" + 0.069*"software" + 0.063*"vulnerability" + 0.054*"iDEFENSE" + 0.046*"information" + -0.043*"world" + 0.039*"security" + -0.035*"freedom" + 0.032*"think" + -0.031*"development"
-0.269*"think" + 0.254*"president" + 0.222*"get" + 0.188*"World" + 0.168*"company" + 0.155*"time" + 0.144*"see" + 0.144*"technology" + 0.138*"way" + 0.134*"market"
--0.461*"technology" + -0.259*"processing" + -0.242*"network" + -0.173*"Venture" + -0.167*"Seed" + -0.166*"company" + -0.161*"software" + -0.142*"industry" + -0.140*"engineering" + 0.136*"think"
--0.460*"president" + -0.244*"war" + 0.228*"World" + 0.205*"market" + 0.156*"Act" + 0.151*"commission" + 0.143*"telecom" + -0.139*"remember" + 0.131*"company" + 0.127*"chairman"
--0.478*"design" + -0.379*"language" + -0.324*"programming" + 0.176*"president" + -0.166*"time" + -0.135*"use" + 0.133*"World" + -0.116*"analysis" + -0.111*"elegance" + -0.110*"way"
--0.367*"Administration" + -0.205*"world" + 0.197*"president" + -0.161*"official" + 0.158*"design" + -0.150*"policy" + 0.146*"World" + -0.143*"operation" + -0.133*"think" + -0.130*"team"
--0.390*"+" + -0.269*"[" + 0.236*"design" + -0.231*"get" + 0.205*"Administration" + 0.180*"language" + -0.173*"}" + 0.171*"programming" + -0.165*"{" + -0.114*"message"
--0.449*"+" + 0.250*"EchoStar" + 0.192*"get" + -0.182*"{" + -0.178*"}" + 0.171*"subscription" + -0.139*"[" + 0.136*"merger" + -0.133*"bind" + 0.124*"email"
--0.375*"EchoStar" + -0.259*"+" + -0.256*"subscription" + -0.205*"merger" + 0.182*"get" + -0.154*"Port" + -0.129*"}" + -0.124*"report" + -0.123*"email" + 0.119*"temperature"
--0.371*"million" + -0.321*"executive" + -0.254*"chief" + -0.251*"investment" + -0.230*"bankruptcy" + -0.188*"company" + -0.156*"firm" + 0.151*"get" + -0.138*"year" + -0.132*"+"
-0.678*"temperature" + 0.214*"Spencer" + 0.198*"climate" + 0.133*"water" + 0.130*"microwave" + 0.109*"surface" + -0.109*"get" + 0.109*"Space" + 0.107*"balloon" + 0.106*"radiosonde"
-0.611*"/" + 0.509*"\" + -0.173*"temperature" + -0.115*"rich" + -0.098*"+" + 0.095*"see" + 0.094*"law" + 0.093*"case" + -0.092*"someone" + -0.091*"money"
--0.329*"/" + 0.281*"law" + -0.278*"\" + 0.193*"licence" + 0.179*"defect" + 0.177*"clause" + 0.165*"author" + 0.161*"case" + 0.146*"see" + 0.141*"change"
--0.301*"use" + 0.269*"law" + 0.170*"licence" + -0.164*"see" + 0.158*"clause" + 0.157*"defect" + 0.150*"rich" + 0.136*"author" + -0.125*"email" + 0.125*"money"
-0.243*"see" + -0.230*"use" + 0.201*"think" + -0.186*"information" + -0.166*"control" + 0.148*"picture" + -0.143*"government" + 0.140*"film" + 0.132*"content" + -0.131*"access"
--0.387*"mind" + -0.377*"control" + -0.220*"psi" + 0.178*"information" + -0.163*"race" + -0.146*"appear" + -0.145*"ownership" + -0.118*"source" + 0.116*"access" + -0.111*"writer"
-0.276*"film" + 0.224*"movie" + -0.215*"use" + 0.213*"see" + 0.159*"government" + 0.158*"F.B.I" + 0.149*"information" + 0.141*"book" + 0.128*"office" + 0.127*"week"
-0.267*"get" + -0.238*"MaXLine" + -0.178*"F.B.I" + -0.174*"storage" + -0.173*"think" + 0.140*"Lynch" + -0.124*"Corporation" + -0.121*"tax" + 0.113*"computer" + -0.112*"picture"
--0.296*"information" + -0.175*"access" + 0.157*"tax" + -0.152*"collaboration" + 0.146*"use" + 0.143*"find" + -0.142*"material" + -0.132*"control" + 0.130*"end" + 0.129*"year"
--0.246*"MaXLine" + 0.200*"information" + -0.182*"storage" + 0.177*"F.B.I" + 0.175*"tax" + -0.173*"file" + -0.160*"system" + 0.148*"computer" + 0.146*"think" + 0.127*"picture"
--0.395*"MaXLine" + -0.285*"storage" + 0.229*"use" + 0.162*"email" + -0.146*"tax" + 0.129*"group" + 0.126*"F.B.I" + -0.126*"want" + 0.124*"send" + -0.119*"computer"
--0.271*"tax" + -0.215*"file" + -0.212*"[" + 0.186*"Lynch" + -0.185*"computer" + 0.178*"MaXLine" + -0.143*"science" + 0.132*"+" + 0.128*"storage" + 0.125*"life"
--0.402*"tax" + -0.182*"coffee" + 0.181*"energy" + -0.155*"group" + 0.146*"F.B.I" + -0.138*"work" + -0.137*"subject" + -0.126*"city" + 0.124*"file" + -0.115*"email"
-0.338*"file" + 0.185*"F.B.I" + 0.182*"think" + -0.172*"computer" + 0.163*"tax" + 0.141*"time" + -0.133*"[" + -0.129*"send" + -0.122*"science" + -0.122*"world"
-0.369*"diesel" + 0.224*"file" + 0.207*"report" + -0.201*"tax" + 0.180*"health" + -0.165*"button" + 0.164*"I/O" + -0.146*"get" + 0.123*"billion" + 0.122*"friendship"
--0.270*"I/O" + 0.253*"file" + 0.240*"diesel" + -0.180*"way" + 0.177*"button" + -0.154*"collaboration" + 0.154*"get" + 0.144*"report" + -0.131*"energy" + 0.127*"player"
-0.333*"diesel" + -0.237*"billion" + 0.195*"report" + 0.191*"energy" + -0.171*"space" + -0.154*"feet" + 0.131*"computer" + 0.131*"health" + 0.131*"science" + -0.121*"office"
--0.218*"way" + 0.196*"run" + -0.189*"I/O" + 0.188*"energy" + 0.185*"file" + -0.172*"diesel" + -0.169*"collaboration" + 0.154*"end" + -0.150*"Security" + 0.142*"case"
-0.251*"computer" + -0.217*"person" + 0.215*"science" + -0.204*"friendship" + -0.178*"button" + -0.170*"tax" + -0.151*"diesel" + -0.148*"friend" + 0.138*"think" + 0.132*"Lynch"
-0.272*"I/O" + -0.207*"file" + 0.196*"work" + 0.177*"button" + -0.175*"collaboration" + 0.152*"use" + 0.145*"player" + -0.141*"[" + -0.140*"time" + -0.140*"end"
--0.281*"space" + -0.204*"office" + -0.199*"feet" + -0.167*"file" + 0.167*"tax" + -0.158*"city" + -0.141*"ice" + -0.141*"computer" + -0.139*"button" + -0.133*"million"
--0.191*"billion" + -0.187*"Lynch" + 0.184*"file" + 0.183*"way" + -0.172*"work" + 0.169*"friendship" + -0.142*"get" + 0.139*"want" + 0.133*"country" + -0.130*"diesel"
--0.302*"billion" + -0.174*"person" + -0.163*"tribe" + 0.160*"diesel" + -0.144*"government" + -0.134*"friendship" + -0.127*"speech" + 0.126*"button" + 0.123*"way" + -0.121*"money"
-0.226*"want" + -0.211*"friendship" + 0.205*"diesel" + -0.161*"friend" + -0.144*"[" + 0.141*"Security" + -0.134*"person" + 0.133*"security" + 0.125*"collaboration" + 0.125*"space"
--0.302*"wireless" + 0.216*"button" + -0.164*"access" + 0.163*"player" + -0.146*"search" + -0.144*"mesh" + -0.138*"ice" + -0.138*"internet" + 0.137*"group" + 0.132*"play"
-0.277*"ice" + 0.216*"file" + 0.175*"search" + 0.174*"button" + -0.164*"space" + -0.158*"office" + -0.151*"o" + 0.150*"player" + -0.144*"work" + -0.129*"get"
-0.283*"ice" + 0.205*"o" + 0.202*"time" + 0.197*"code" + -0.177*"way" + -0.165*"file" + 0.137*"message" + -0.135*"web" + 0.134*"country" + 0.120*"submit"
-0.401*"hextab" + -0.256*"code" + 0.240*"file" + -0.143*"codec" + -0.142*"want" + 0.138*"c" + 0.126*"mail" + 0.122*"I/O" + -0.117*"release" + -0.116*"look"
--0.318*"wireless" + 0.208*"web" + -0.206*"billion" + 0.195*"fake" + -0.159*"time" + -0.149*"network" + -0.148*"mesh" + -0.129*"internet" + 0.129*"cash" + 0.120*"hextab"
-0.491*"hextab" + 0.192*"want" + -0.172*"message" + 0.155*"c" + 0.151*"check" + 0.150*"code" + 0.129*"wireless" + -0.123*"I/O" + -0.110*"o" + -0.104*"file"
--0.225*"code" + -0.169*"[" + -0.145*"codec" + 0.137*"billion" + 0.134*"ice" + -0.132*"wireless" + 0.129*"speech" + -0.128*"government" + -0.122*"message" + 0.122*"use"
--0.202*"get" + 0.202*"way" + 0.188*"find" + 0.169*"message" + -0.154*"web" + 0.142*"tribe" + 0.132*"look" + 0.120*"time" + 0.117*"check" + 0.114*"money"
-0.210*"fake" + -0.167*"Security" + 0.167*"code" + 0.153*"web" + -0.131*"work" + 0.130*"think" + -0.129*"ice" + 0.127*"cash" + 0.124*"bank" + 0.117*"con"
--0.179*"way" + 0.173*"something" + -0.153*"set" + -0.149*"hextab" + 0.147*"religion" + -0.142*"help" + 0.136*"find" + -0.132*"work" + 0.130*"want" + 0.130*"society"
--0.276*"time" + -0.180*"I/O" + 0.175*"government" + 0.165*"hextab" + 0.149*"state" + 0.146*"work" + 0.126*"monkey" + -0.125*"help" + -0.120*"tribe" + 0.117*"exmh"
-0.201*"message" + 0.180*"check" + 0.178*"set" + 0.170*"web" + -0.159*"law" + -0.147*"codec" + -0.147*"file" + -0.146*"code" + 0.133*"exmh" + -0.126*"police"
--0.252*"hextab" + -0.222*"search" + 0.185*"Security" + -0.162*"use" + 0.152*"security" + -0.150*"monkey" + -0.144*"access" + -0.143*"time" + 0.135*"speech" + 0.118*"get"
-0.218*"monkey" + 0.168*"state" + 0.165*"Security" + -0.159*"society" + -0.148*"message" + 0.147*"security" + 0.140*"code" + -0.137*"religion" + -0.118*"mail" + -0.117*"search"
-0.256*"work" + -0.244*"way" + -0.190*"monkey" + 0.175*"exmh" + -0.156*"get" + 0.138*"law" + 0.137*"want" + -0.129*"code" + 0.123*"proposal" + 0.121*"cybercrime"
-0.368*"monkey" + 0.217*"state" + 0.182*"speech" + -0.157*"country" + 0.134*"time" + -0.132*"world" + 0.132*"law" + 0.127*"message" + 0.112*"police" + -0.108*"business"
--0.157*"someone" + 0.140*"work" + -0.138*"I/O" + 0.136*"think" + 0.120*"file" + 0.117*"monkey" + 0.111*"power" + 0.111*"speech" + -0.109*"support" + 0.107*"sex"
--0.228*"monkey" + -0.224*"work" + 0.200*"message" + 0.196*"speech" + -0.194*"web" + -0.149*"support" + 0.139*"use" + -0.124*"someone" + 0.118*"Security" + 0.115*"security"
-0.215*"am" + -0.212*"speech" + -0.195*"message" + 0.169*"time" + -0.123*"mail" + 0.121*"maintainer" + 0.120*"fake" + 0.117*"thing" + 0.112*"power" + 0.112*"sex"
-0.246*"speech" + -0.230*"monkey" + 0.159*"energy" + -0.150*"C/C++" + 0.142*"web" + 0.140*"codec" + 0.140*"company" + -0.137*"think" + -0.137*"experience" + -0.136*"level"
--0.259*"check" + -0.153*"get" + 0.150*"someone" + 0.145*"society" + 0.133*"use" + 0.129*"hextab" + -0.121*"world" + -0.120*"+" + -0.117*"monkey" + 0.116*"regulation"
-0.186*"speech" + -0.182*"check" + 0.162*"hextab" + 0.160*"work" + -0.136*"someone" + -0.133*"mail" + 0.128*"War" + 0.117*"world" + -0.116*"support" + 0.115*"something"
--0.275*"use" + -0.165*"monkey" + -0.144*"think" + 0.139*"send" + -0.134*"check" + 0.132*"set" + 0.121*"run" + 0.119*"email" + -0.107*"mark" + -0.107*"collaboration"
--0.202*"monkey" + -0.201*"speech" + -0.175*"way" + 0.129*"think" + 0.124*"regulation" + 0.121*"something" + -0.119*"want" + -0.117*"mail" + -0.114*"security" + 0.112*"get"
-0.230*"speech" + 0.177*"am" + 0.176*"program" + 0.151*"word" + -0.147*"get" + 0.127*"mail" + -0.126*"check" + 0.123*"regulation" + -0.120*"think" + -0.109*"way"
--0.214*"regulation" + -0.166*"way" + 0.158*"monkey" + 0.157*"speech" + -0.134*"problem" + -0.129*"set" + -0.128*"help" + -0.125*"spending" + 0.119*"support" + 0.118*"want"
--0.266*"speech" + 0.169*"energy" + -0.164*"find" + -0.157*"power" + -0.135*"problem" + -0.126*"maintainer" + 0.126*"religion" + 0.119*"word" + -0.117*"Lawrence" + -0.111*"someone"
-0.168*"time" + 0.161*"World" + -0.157*"monkey" + -0.140*"sex" + 0.139*"energy" + 0.135*"religion" + -0.123*"help" + -0.120*"company" + -0.119*"lot" + 0.116*"run"
--0.187*"web" + -0.150*"sex" + 0.146*"system" + -0.144*"increase" + -0.132*"mark" + -0.119*"gay" + -0.118*"power" + 0.113*"set" + 0.109*"energy" + -0.107*"story"
--0.259*"want" + 0.190*"time" + -0.151*"list" + -0.149*"find" + 0.148*"am" + -0.145*"system" + -0.134*"collaboration" + 0.112*"mail" + 0.108*"web" + -0.108*"point"
--0.211*"increase" + 0.161*"society" + -0.152*"greenhouse" + 0.136*"message" + 0.132*"story" + -0.123*"am" + -0.113*"number" + 0.110*"feet" + -0.105*"methane" + 0.101*"help"
--0.210*"power" + 0.204*"regulation" + 0.187*"help" + 0.151*"speech" + -0.150*"problem" + 0.141*"find" + -0.137*"world" + 0.133*"War" + 0.121*"story" + -0.117*"message"
-0.250*"nanotechnology" + 0.240*"research" + -0.175*"Lawrence" + 0.153*"regulation" + -0.140*"web" + 0.127*"laptop" + 0.121*"bill" + -0.115*"stuff" + -0.114*"world" + 0.113*"development"
--0.220*"nanotechnology" + -0.182*"Lawrence" + -0.178*"research" + 0.156*"am" + -0.121*"useless" + -0.120*"support" + -0.111*"bill" + -0.105*"industry" + 0.105*"religion" + -0.101*"population"
-0.176*"War" + 0.172*"system" + 0.147*"mail" + 0.136*"year" + 0.132*"dead" + -0.131*"end" + 0.123*"World" + -0.118*"find" + 0.118*"power" + 0.106*"property"
--0.190*"problem" + 0.153*"set" + 0.150*"see" + -0.135*"news" + 0.117*"sex" + -0.109*"become" + 0.104*"room" + -0.103*"work" + -0.103*"system" + -0.100*"increase"
--0.155*"man" + 0.146*"course" + -0.129*"something" + 0.119*"society" + -0.116*"become" + 0.116*"food" + 0.115*"religion" + -0.108*"fitness" + -0.106*"prison" + 0.105*"thing"
-0.165*"set" + -0.138*"+" + 0.135*"number" + -0.129*"mail" + 0.125*"pick" + -0.121*"something" + 0.119*"food" + -0.112*"story" + -0.109*"spam" + -0.102*"year"
-0.158*"mark" + 0.157*"time" + -0.151*"maintainer" + 0.149*"see" + 0.144*"business" + -0.127*"phone" + -0.122*"information" + 0.116*"sex" + 0.114*"security" + -0.114*"room"
-0.263*"list" + 0.193*"rpm" + -0.183*"Lawrence" + 0.149*"install" + 0.128*"something" + -0.128*"society" + -0.120*"news" + 0.120*"package" + 0.115*"try" + 0.106*"word"
-0.233*"food" + 0.159*"stuff" + 0.153*"help" + 0.130*"system" + -0.129*"word" + 0.122*"business" + 0.108*"mark" + -0.105*"exmh" + 0.103*"aid" + 0.096*"laptop"
-0.161*"+" + 0.152*"exmh" + 0.140*"fact" + -0.135*"room" + -0.132*"security" + -0.125*"system" + 0.125*"mail" + -0.115*"company" + -0.107*"antenna" + -0.103*"stuff"
-0.230*"food" + 0.174*"something" + 0.158*"word" + -0.148*"get" + 0.125*"set" + -0.106*"maintainer" + 0.106*"policy" + -0.106*"mark" + -0.101*"spam" + 0.095*"o"
-0.148*"something" + -0.121*"war" + 0.118*"see" + -0.114*"War" + 0.113*"fact" + -0.110*"number" + -0.107*"money" + 0.100*"read" + 0.100*"society" + -0.099*"seem"
--0.212*"food" + 0.203*"antenna" + 0.129*"set" + -0.115*"exmh" + 0.111*"information" + -0.110*"room" + 0.107*"sight" + -0.107*"company" + 0.100*"laptop" + 0.098*"way"
--0.251*"stuff" + 0.177*"way" + 0.135*"food" + 0.131*"list" + 0.119*"energy" + 0.117*"rpm" + 0.112*"prize" + -0.109*"course" + 0.107*"Lawrence" + -0.104*"run"
-0.166*"word" + -0.157*"company" + -0.143*"prize" + -0.132*"thing" + 0.128*"power" + 0.122*"try" + 0.113*"value" + -0.111*"regulation" + 0.107*"problem" + -0.094*"government"
--0.408*"food" + 0.156*"help" + -0.148*"train" + 0.139*"run" + 0.129*"archbishop" + -0.124*"aid" + 0.118*"anything" + -0.114*"point" + 0.103*"story" + 0.100*"problem"
-0.177*"food" + -0.154*"something" + 0.141*"problem" + 0.135*"seem" + 0.131*"run" + 0.124*"antenna" + 0.116*"come" + -0.114*"case" + 0.110*"see" + -0.109*"Lawrence"
--0.159*"want" + 0.148*"system" + -0.147*"run" + -0.139*"food" + 0.130*"find" + -0.123*"money" + -0.120*"exmh" + -0.117*"support" + 0.117*"use" + 0.112*"course"
--0.171*"antenna" + -0.137*"power" + 0.136*"news" + -0.136*"society" + -0.134*"try" + -0.118*"archbishop" + 0.115*"study" + -0.114*"stuff" + 0.106*"thing" + 0.106*"seem"
-0.215*"food" + -0.160*"number" + -0.146*"sex" + 0.146*"anyone" + -0.121*"prize" + 0.113*"thing" + 0.109*"church" + -0.107*"point" + -0.104*"promiscuity" + -0.102*"try"
-0.160*"population" + 0.145*"time" + -0.139*"number" + 0.138*"wealth" + 0.127*"[" + -0.113*"thing" + -0.101*"come" + -0.101*"face" + 0.094*"list" + 0.094*"FoRK"
--0.165*"number" + -0.126*"gay" + 0.126*"state" + -0.120*"end" + 0.113*"power" + -0.111*"way" + -0.111*"let" + 0.107*"email" + 0.107*"exmh" + -0.105*"word"
-0.147*"find" + -0.136*"fact" + -0.124*"process" + 0.117*"maintainer" + -0.117*"fall" + -0.110*"increase" + 0.109*"action" + -0.108*"si" + 0.103*"gay" + -0.101*"system"
--0.183*"find" + 0.180*"rpm" + -0.175*"word" + 0.126*"government" + -0.119*"prize" + -0.111*"use" + 0.102*"install" + 0.099*"face" + 0.098*"list" + -0.097*"anyone"
-0.172*"system" + -0.170*"wealth" + -0.144*"list" + -0.138*"prize" + -0.126*"Lawrence" + 0.109*"o" + 0.100*"time" + 0.099*"email" + -0.098*"word" + -0.098*"life"
--0.160*"yer" + 0.154*"prize" + -0.143*"wealth" + -0.115*"life" + -0.112*"list" + 0.108*"set" + -0.107*"stuff" + -0.099*"face" + 0.096*"man" + -0.095*"form"
-0.179*"pick" + -0.154*"prize" + -0.147*"stuff" + 0.139*"antenna" + 0.134*"run" + -0.131*"copyright" + -0.111*"system" + 0.108*"version" + 0.106*"line" + 0.095*"code"
-0.268*"prize" + 0.119*"yer" + 0.106*"process" + 0.104*"think" + 0.101*"someone" + 0.096*"pick" + -0.095*"come" + 0.095*"half" + 0.091*"{" + 0.091*"house"
-0.340*"pick" + 0.187*"stuff" + 0.126*"nmh" + 0.123*"food" + 0.118*"list" + -0.116*"yer" + 0.111*"version" + -0.109*"see" + -0.109*"life" + -0.109*"point"
--0.184*"problem" + 0.151*"list" + 0.146*"think" + -0.135*"wealth" + -0.133*"email" + -0.121*"life" + -0.120*"speech" + -0.109*"happen" + 0.106*"use" + -0.105*"work"
-0.204*"server" + 0.201*"want" + -0.192*"set" + -0.155*"point" + 0.147*"blood" + 0.134*"maintainer" + -0.131*"find" + -0.119*"list" + -0.112*"pick" + 0.112*"brain"
--0.242*"pick" + -0.146*"system" + -0.134*"come" + -0.127*"part" + -0.114*"Alliance" + -0.112*"si" + 0.109*"list" + -0.095*"horse" + -0.093*"time" + -0.093*"server"
--0.154*"oil" + 0.121*"prize" + 0.118*"online" + 0.117*"population" + 0.114*"signature" + 0.112*"wealth" + -0.108*"lot" + -0.106*"call" + 0.103*"try" + -0.099*"exmh"
--0.189*"oil" + 0.178*"anyone" + -0.160*"lot" + 0.145*"anything" + 0.143*"mail" + 0.136*"o" + 0.130*"course" + -0.116*"prize" + 0.106*"pick" + 0.101*"number"
--0.153*"yer" + -0.144*"want" + -0.133*"blood" + 0.124*"society" + 0.122*"think" + 0.116*"stuff" + 0.114*"exmh" + 0.113*"number" + -0.108*"face" + 0.106*"system"
--0.180*"stuff" + 0.153*"word" + 0.134*"pick" + -0.120*"code" + 0.120*"maintainer" + -0.119*"horse" + -0.111*"race" + -0.107*"rpm" + -0.097*"oil" + -0.093*"day"
--0.176*"read" + 0.128*"wealth" + 0.126*"{" + 0.125*"signature" + -0.125*"done" + -0.116*"email" + -0.115*"+" + -0.108*"maintainer" + -0.106*"party" + 0.104*"horse"
-0.161*"number" + 0.155*"party" + -0.137*"word" + -0.126*"pain" + 0.123*"storage" + -0.118*"course" + 0.114*"pick" + 0.114*"program" + -0.103*"rpm" + -0.103*"process"
--0.175*"run" + 0.159*"house" + 0.141*"problem" + -0.141*"system" + -0.113*"pick" + 0.112*"mail" + 0.105*"thing" + 0.095*"look" + 0.093*"card" + -0.090*"oil"
-0.157*"house" + -0.152*"yer" + -0.149*"maintainer" + 0.119*"story" + 0.112*"word" + -0.111*"server" + -0.110*"pain" + -0.102*"group" + 0.101*"lot" + 0.097*"user"
-0.213*"word" + 0.156*"software" + 0.152*"yer" + -0.151*"look" + -0.136*"course" + -0.130*"am" + -0.128*"oil" + 0.127*"find" + 0.126*"house" + 0.121*"machine"
--0.135*"storage" + -0.133*"house" + -0.114*"software" + 0.112*"text" + 0.107*"email" + 0.106*"yer" + -0.103*"pick" + -0.101*"bit" + -0.097*"read" + -0.095*"lot"
--0.133*"look" + -0.126*"spam" + -0.117*"mark" + -0.107*"number" + -0.105*"course" + -0.104*"+" + 0.100*"stuff" + 0.099*"way" + -0.098*"model" + -0.098*"check"
-0.120*"run" + -0.113*"life" + -0.112*"come" + -0.112*"find" + -0.107*"exmh" + 0.106*"lot" + 0.106*"word" + 0.098*"wealth" + 0.093*"happen" + -0.090*"property"
-0.234*"server" + -0.146*"nothing" + -0.121*"storage" + 0.108*"problem" + -0.106*"floppy" + -0.102*"issue" + -0.095*"gay" + -0.091*"mobo" + 0.091*"signature" + -0.090*"policy"
-0.260*"read" + 0.180*"oil" + 0.141*"pick" + 0.139*"house" + -0.106*"gay" + -0.104*"look" + -0.104*"lot" + -0.100*"year" + -0.099*"server" + 0.098*"human"
--0.149*"something" + 0.142*"seat" + 0.122*"class" + -0.118*"place" + -0.114*"end" + -0.108*"maintainer" + -0.106*"cheap" + 0.099*"mail" + 0.099*"remain" + 0.099*"box"
--0.193*"server" + -0.173*"am" + 0.147*"+" + -0.112*"bind" + -0.107*"[" + -0.107*"house" + -0.105*"phone" + -0.105*"wealth" + 0.103*"year" + 0.103*"pick"
-0.205*"thing" + 0.188*"storage" + -0.122*"oil" + 0.111*"client" + 0.108*"seem" + -0.107*"MaXLine" + 0.106*"server" + 0.103*"acquisition" + 0.101*"amount" + -0.096*"o"
-0.148*"problem" + 0.135*"come" + -0.124*"see" + 0.109*"user" + 0.109*"phone" + -0.107*"look" + -0.105*"lot" + -0.103*"prize" + -0.100*"attack" + 0.095*"freedom"
--0.156*"storage" + 0.142*"idea" + -0.112*"list" + 0.101*"see" + -0.101*"content" + -0.096*"hate" + 0.096*"MaXLine" + -0.094*"speech" + -0.094*"run" + -0.093*"job"
--0.205*"number" + 0.142*"find" + 0.135*"anyone" + -0.133*"bit" + -0.125*"past" + 0.123*"course" + -0.117*"read" + 0.110*"storage" + -0.107*"man" + 0.104*"water"
--0.164*"phone" + -0.145*"course" + 0.140*"content" + -0.133*"storage" + -0.133*"call" + 0.131*"am" + -0.107*"account" + -0.102*"agree" + 0.100*"management" + -0.099*"program"
--0.188*"race" + -0.159*"contrada" + -0.156*"word" + 0.137*"pick" + -0.131*"mail" + -0.127*"sort" + -0.127*"jockey" + -0.127*"year" + -0.124*"horse" + 0.121*"point"
--0.165*"signature" + -0.164*"read" + 0.126*"sequence" + -0.124*"pick" + 0.116*"am" + 0.113*"bit" + 0.109*"documentation" + 0.103*"maintainer" + -0.102*"gay" + -0.102*"sent"
--0.183*"user" + 0.173*"message" + -0.119*"storage" + 0.114*"+" + -0.104*"mail" + 0.104*"card" + 0.104*"race" + -0.103*"exist" + -0.101*"life" + -0.096*"anything"
--0.169*"oil" + 0.148*"read" + -0.123*"opinion" + -0.122*"anyone" + -0.116*"hardware" + -0.101*"course" + 0.096*"see" + 0.096*"idea" + 0.090*"account" + -0.086*"software"
-0.183*"word" + -0.137*"race" + -0.115*"contrada" + -0.099*"anyone" + 0.097*"half" + -0.093*"box" + 0.092*"figure" + -0.092*"jockey" + 0.092*"text" + 0.091*"script"
-0.181*"server" + 0.134*"user" + 0.125*"phone" + -0.113*"fact" + -0.113*"job" + 0.109*"end" + 0.107*"speak" + 0.106*"software" + -0.104*"mail" + -0.100*"number"
--0.139*"am" + 0.137*"server" + -0.127*"seem" + 0.107*"home" + -0.105*"storage" + 0.105*"anyone" + 0.101*"video" + -0.100*"lot" + 0.096*"system" + -0.094*"Alliance"
-0.137*"server" + 0.131*"woman" + -0.128*"spam" + -0.112*"set" + 0.110*"try" + 0.105*"kind" + -0.103*"think" + -0.100*"exmh" + 0.099*"mayor" + 0.099*"order"
-0.174*"server" + -0.142*"race" + -0.129*"contrada" + 0.118*"client" + -0.106*"hardware" + -0.103*"jockey" + -0.100*"am" + 0.100*"program" + -0.098*"maintainer" + -0.097*"part"
-0.146*"system" + 0.136*"read" + 0.132*"management" + 0.128*"hardware" + -0.111*"server" + -0.108*"menu" + -0.105*"property" + -0.104*"message" + 0.103*"moon" + 0.103*"rpm"
--0.171*"tell" + 0.146*"management" + -0.142*"mayor" + 0.113*"content" + 0.113*"spam" + 0.108*"user" + -0.104*"box" + 0.100*"house" + -0.091*"find" + -0.087*"rpm"
--0.142*"number" + -0.137*"FoRK" + 0.117*"gay" + -0.112*"set" + -0.109*"kind" + 0.106*"point" + 0.103*"card" + 0.103*"year" + 0.098*"play" + -0.097*"anyone"
--0.195*"number" + 0.118*"house" + 0.114*"information" + -0.104*"someone" + 0.103*"place" + 0.101*"type" + -0.098*"maintainer" + -0.096*"storage" + -0.096*"start" + -0.094*"management"
--0.161*"spam" + -0.145*"thing" + 0.141*"user" + -0.138*"anything" + -0.117*"point" + -0.112*"send" + 0.108*"bot" + -0.101*"sell" + -0.099*"process" + -0.090*"nothing"
-0.161*"management" + -0.114*"card" + 0.113*"mayor" + 0.106*"sort" + -0.103*"home" + -0.101*"man" + 0.100*"business" + -0.097*"format" + 0.097*"opinion" + 0.094*"woman"
--0.127*"storage" + -0.109*"building" + 0.108*"number" + -0.105*"seem" + -0.103*"release" + -0.098*"maintainer" + -0.098*"oil" + 0.097*"sequence" + 0.095*"server" + -0.095*"man"
-0.141*"list" + -0.129*"bot" + -0.108*"man" + 0.104*"anyone" + -0.097*"weather" + 0.095*"job" + -0.090*"oil" + 0.087*"software" + -0.086*"gay" + 0.085*"government"
-0.154*"someone" + 0.124*"version" + -0.121*"exist" + -0.120*"thing" + 0.114*"bit" + 0.112*"documentation" + -0.109*"user" + 0.109*"look" + 0.108*"storage" + -0.105*"gay"
-0.115*"call" + -0.113*"project" + -0.109*"agree" + 0.108*"machine" + -0.108*"hardware" + -0.100*"problem" + 0.099*"population" + 0.094*"service" + 0.092*"let" + -0.092*"C++"
-0.150*"speed" + 0.135*"decentralization" + 0.122*"story" + -0.112*"text" + 0.106*"software" + 0.103*"word" + -0.100*"point" + 0.094*"modem" + 0.092*"camera" + 0.091*"anyone"
-0.169*"mass" + -0.158*"group" + 0.121*"documentation" + -0.121*"call" + 0.110*"amount" + -0.109*"modem" + 0.106*"part" + -0.100*"maintainer" + 0.097*"half" + 0.096*"percentage"
--0.152*"moon" + -0.132*"mass" + 0.122*"run" + -0.119*"column" + -0.112*"mail" + -0.102*"agree" + -0.096*"machine" + -0.094*"percentage" + 0.094*"log" + 0.094*"job"
-0.121*"moon" + -0.117*"party" + -0.112*"sent" + 0.111*"opinion" + 0.109*"bot" + -0.102*"letter" + 0.101*"FoRK" + -0.101*"version" + 0.099*"word" + -0.097*"lot"
-0.156*"text" + 0.125*"today" + 0.124*"decentralization" + 0.107*"content" + 0.103*"world" + 0.103*"SubSection" + 0.102*"video" + 0.094*"spam" + -0.093*"party" + -0.087*"Alliance"
--0.177*"am" + -0.159*"gecko" + 0.144*"try" + 0.131*"place" + 0.127*"anyone" + 0.117*"send" + -0.109*"nothing" + -0.108*"anything" + -0.103*"rpm" + -0.091*"model"
--0.155*"management" + 0.121*"exist" + 0.121*"project" + -0.120*"agree" + -0.104*"source" + -0.104*"question" + 0.101*"system" + -0.098*"content" + -0.095*"practice" + 0.092*"think"
--0.148*"strength" + 0.118*"man" + 0.116*"rpm" + -0.107*"sense" + 0.107*"mass" + -0.107*"spidey" + 0.106*"gpg" + 0.102*"maintainer" + 0.099*"process" + -0.098*"job"
--0.137*"woman" + -0.132*"server" + -0.132*"start" + -0.132*"opinion" + 0.131*"business" + 0.120*"run" + -0.111*"floppy" + -0.100*"SubSection" + -0.095*"format" + 0.093*"sent"
--0.148*"version" + 0.146*"idea" + -0.118*"speak" + 0.112*"train" + -0.109*"man" + 0.105*"sell" + 0.105*"menu" + 0.103*"modem" + 0.102*"[" + 0.096*"party"
-0.163*"woman" + 0.154*"strength" + -0.121*"police" + 0.118*"mayor" + 0.116*"bot" + -0.114*"part" + -0.108*"am" + 0.103*"weight" + -0.100*"today" + 0.098*"society"
-0.157*"server" + -0.143*"format" + -0.124*"pay" + -0.120*"woman" + -0.108*"menu" + -0.104*"course" + 0.104*"try" + 0.099*"place" + -0.096*"video" + -0.094*"system"
--0.178*"population" + 0.137*"moon" + 0.136*"SubSection" + -0.126*"woman" + 0.122*"number" + 0.112*"try" + 0.098*"format" + -0.096*"book" + 0.091*"day" + -0.091*"Software"
-0.146*"done" + -0.114*"pain" + -0.111*"part" + 0.111*"half" + 0.108*"order" + 0.100*"population" + 0.098*"floppy" + 0.094*"world" + 0.092*"box" + -0.089*"FoRK"
--0.137*"woman" + 0.127*"anyone" + -0.108*"sort" + 0.105*"add" + -0.101*"exmh" + 0.100*"release" + 0.095*"text" + -0.090*"process" + 0.084*"news" + 0.083*"happen"
--0.163*"gay" + 0.126*"content" + 0.124*"course" + -0.114*"machine" + -0.111*"signature" + -0.107*"idea" + -0.098*"government" + 0.095*"mass" + 0.094*"source" + -0.091*"hardware"
--0.139*"management" + 0.129*"gecko" + -0.121*"come" + 0.110*"pay" + -0.108*"software" + 0.106*"law" + 0.100*"sort" + 0.098*"speed" + 0.097*"course" + -0.095*"society"
--0.132*"job" + -0.129*"process" + 0.126*"read" + -0.113*"anything" + -0.112*"house" + -0.109*"question" + 0.105*"done" + 0.103*"gecko" + 0.101*"man" + 0.096*"format"
-0.168*"user" + -0.110*"hardware" + 0.109*"issue" + -0.105*"format" + 0.104*"kind" + 0.099*"worth" + -0.098*"sex" + 0.098*"look" + -0.092*"argument" + 0.090*"gecko"
-0.288*"gecko" + 0.161*"job" + -0.134*"woman" + 0.115*"chemistry" + 0.111*"place" + 0.110*"size" + 0.108*"pay" + -0.105*"sort" + -0.100*"text" + 0.099*"rpm"
--0.199*"done" + 0.142*"SubSection" + -0.125*"woman" + 0.118*"account" + -0.098*"application" + -0.092*"online" + -0.085*"moon" + -0.083*"number" + 0.080*"issue" + 0.078*"Section"
--0.252*"SubSection" + 0.157*"format" + -0.140*"Section" + 0.131*"release" + 0.117*"exist" + -0.114*"card" + -0.112*"module" + 0.106*"start" + 0.099*"Software" + 0.094*"house"
-0.192*"gecko" + 0.191*"SubSection" + 0.115*"Section" + 0.106*"read" + -0.104*"nothing" + -0.098*"work" + 0.098*"project" + 0.096*"size" + 0.095*"load" + -0.094*"dont"
-0.164*"gecko" + -0.150*"server" + 0.134*"FoRK" + 0.127*"SubSection" + -0.124*"command" + 0.120*"done" + 0.114*"try" + -0.106*"find" + -0.099*"log" + -0.092*"map"
-0.214*"SubSection" + 0.144*"moon" + -0.127*"mass" + -0.121*"project" + 0.121*"Section" + 0.109*"decentralization" + -0.104*"let" + -0.097*"machine" + 0.093*"service" + 0.091*"module"
--0.111*"FoRK" + -0.107*"hardware" + 0.106*"seem" + 0.103*"phone" + 0.102*"box" + 0.102*"someone" + -0.102*"company" + -0.100*"house" + 0.096*"speed" + 0.093*"code"
-0.135*"part" + 0.122*"gecko" + 0.114*"folder" + 0.109*"floppy" + 0.105*"mayor" + -0.103*"server" + -0.098*"spam" + -0.098*"machine" + 0.098*"install" + 0.092*"fact"
-0.161*"police" + -0.126*"law" + -0.124*"gay" + -0.118*"seem" + 0.113*"someone" + -0.102*"done" + 0.094*"message" + 0.092*"mass" + 0.090*"human" + 0.081*"feel"
--0.193*"user" + -0.111*"dude" + -0.105*"mayor" + -0.105*"management" + 0.104*"}" + 0.102*"sort" + -0.101*"let" + -0.099*"house" + 0.099*"past" + 0.098*"patch"
--0.182*"project" + 0.180*"gecko" + -0.134*"park" + -0.117*"population" + 0.112*"someone" + 0.108*"box" + -0.095*"application" + 0.090*"model" + 0.089*"version" + 0.088*"lot"
-0.139*"mayor" + 0.117*"number" + -0.114*"SubSection" + 0.109*"machine" + -0.101*"evidence" + 0.100*"format" + 0.099*"lack" + 0.099*"divorce" + 0.097*"innovation" + -0.095*"society"
--0.144*"job" + -0.142*"moon" + 0.122*"modem" + -0.101*"hate" + -0.099*"column" + -0.096*"dark" + -0.091*"format" + -0.091*"sense" + -0.088*"exist" + 0.086*"try"
-0.107*"test" + 0.106*"gecko" + 0.106*"aid" + 0.105*"sort" + -0.091*"train" + 0.090*"insert" + -0.089*"agree" + 0.088*"menu" + -0.087*"guy" + -0.086*"part"
--0.145*"exist" + 0.136*"size" + -0.132*"anyone" + -0.126*"read" + -0.111*"box" + 0.111*"sense" + 0.110*"moon" + -0.097*"dude" + 0.097*"gay" + 0.096*"gecko"
-0.142*"place" + -0.120*"mayor" + -0.119*"police" + -0.116*"park" + 0.110*"done" + 0.097*"population" + 0.095*"command" + -0.095*"happen" + 0.092*"vine" + -0.089*"machine"
--0.157*"gecko" + 0.154*"seem" + -0.129*"size" + 0.127*"part" + 0.120*"window" + 0.104*"gay" + 0.100*"FoRK" + 0.090*"vine" + -0.081*"population" + 0.079*"RE"
-0.122*"gay" + -0.116*"text" + -0.104*"park" + 0.093*"menu" + 0.091*"modem" + 0.090*"attack" + 0.088*"mark" + -0.087*"family" + 0.087*"amount" + -0.084*"anything"
--0.148*"sense" + -0.140*"sort" + -0.103*"job" + 0.100*"application" + 0.096*"spec" + 0.094*"park" + 0.090*"place" + -0.085*"server" + -0.084*"C++" + 0.083*"power"
--0.125*"hardware" + -0.123*"floppy" + -0.113*"nmh" + -0.107*"difference" + 0.105*"gecko" + -0.102*"reason" + 0.097*"log" + -0.097*"text" + -0.092*"fact" + -0.092*"middle"
--0.140*"story" + 0.139*"application" + -0.116*"FoRK" + -0.107*"C++" + -0.093*"test" + -0.092*"society" + 0.090*"php" + -0.087*"version" + -0.084*"memory" + -0.081*"internet"
--0.125*"hardware" + -0.111*"gay" + 0.110*"heard" + 0.102*"machine" + 0.102*"sell" + -0.098*"folder" + 0.096*"someone" + 0.089*"population" + -0.089*"wealth" + 0.085*"idea"
--0.183*"place" + -0.136*"job" + 0.133*"menu" + 0.117*"floppy" + -0.113*"hardware" + -0.113*"police" + -0.102*"version" + 0.097*"process" + -0.097*"someone" + -0.094*"woman"
-0.124*"rock" + 0.108*"done" + 0.106*"size" + -0.099*"{" + -0.098*"gecko" + 0.098*"anything" + -0.097*"exist" + 0.089*"sense" + 0.087*"machine" + 0.086*"shiver"
--0.122*"install" + 0.122*"sell" + 0.112*"show" + 0.106*"spec" + -0.097*"account" + -0.092*"am" + 0.089*"laptop" + 0.087*"email" + -0.086*"explain" + -0.084*"package"
-0.133*"come" + 0.117*"exist" + 0.109*"society" + 0.104*"couple" + 0.101*"job" + 0.092*"hope" + 0.089*"phone" + -0.083*"log" + -0.082*"woman" + -0.081*"point"
-0.143*"order" + -0.113*"come" + 0.112*"size" + -0.107*"video" + -0.107*"done" + 0.104*"process" + 0.097*"nmh" + -0.095*"hand" + 0.090*"floppy" + -0.084*"help"
--0.112*"park" + 0.102*"maintainer" + 0.099*"done" + 0.099*"interface" + 0.099*"platform" + -0.096*"etc" + -0.092*"pick" + 0.088*"part" + 0.085*"practice" + 0.085*"ask"
--0.125*"hardware" + -0.119*"police" + -0.117*"try" + -0.113*"park" + -0.109*"hate" + 0.098*"place" + -0.082*"record" + 0.081*"translator" + -0.081*"show" + 0.080*"hope"
--0.103*"format" + 0.101*"button" + -0.099*"change" + -0.099*"vine" + -0.099*"nmh" + -0.093*"population" + 0.092*"log" + 0.090*"study" + 0.087*"command" + -0.084*"school"
--0.136*"half" + 0.124*"project" + 0.122*"button" + 0.109*"park" + 0.107*"application" + -0.104*"sent" + -0.097*"memory" + -0.089*"list" + -0.086*"population" + 0.085*"sell"
--0.116*"family" + -0.109*"day" + -0.106*"hardware" + -0.105*"let" + 0.105*"list" + -0.102*"sort" + 0.095*"show" + -0.090*"am" + -0.086*"place" + 0.082*"main"
-0.148*"park" + 0.112*"install" + -0.101*"FoRK" + 0.093*"guy" + -0.091*"record" + -0.088*"done" + 0.086*"start" + 0.084*"php" + -0.083*"rpm" + -0.082*"year"
-0.148*"guy" + 0.118*"try" + -0.099*"freedom" + -0.097*"come" + 0.093*"laptop" + -0.085*"worth" + 0.084*"version" + 0.083*"gay" + -0.079*"install" + 0.079*"test"
-0.100*"week" + 0.099*"hardware" + -0.097*"done" + -0.097*"floppy" + 0.095*"leave" + -0.090*"book" + -0.086*"find" + 0.084*"php" + 0.083*"SubSection" + 0.082*"install"
-0.115*"AM" + -0.107*"happen" + -0.099*"book" + 0.097*"size" + -0.097*"past" + -0.096*"school" + 0.088*"line" + 0.087*"sort" + 0.087*"agree" + -0.087*"anyone"
-0.181*"vine" + -0.123*"command" + -0.114*"client" + 0.108*"weevil" + -0.106*"cover" + -0.100*"link" + -0.100*"speed" + -0.100*"browser" + 0.090*"nice" + 0.090*"box"
--0.131*"exist" + 0.120*"version" + -0.117*"water" + -0.113*"hardware" + 0.101*"memory" + -0.100*"dude" + -0.097*"book" + 0.096*"park" + 0.093*"lot" + 0.088*"day"
-0.116*"insert" + -0.114*"part" + 0.112*"player" + -0.100*"shiver" + -0.097*"man" + 0.091*"mad" + 0.090*"water" + 0.089*"pay" + -0.088*"building" + -0.084*"someone"
--0.107*"government" + -0.104*"water" + 0.097*"laptop" + 0.096*"version" + -0.093*"end" + -0.090*"vine" + 0.089*"interface" + 0.087*"park" + 0.081*"part" + 0.080*"project"
--0.157*"size" + 0.120*"info" + 0.102*"look" + 0.093*"online" + 0.091*"reading" + 0.089*"question" + 0.088*"cover" + 0.087*"problem" + -0.084*"come" + 0.079*"network"
-0.123*"mayor" + -0.113*"map" + -0.090*"nice" + 0.090*"past" + 0.089*"version" + -0.085*"anything" + 0.084*"hate" + 0.082*"pay" + 0.082*"anyone" + -0.082*"explain"
+[(u'world', 0.30466529734554126), (u'freedom', 0.21750443892267471), (u'development', 0.1946341732310837), (u'security', 0.19395941322307647), (u'trade', 0.18706765054179297)]
+[(u'think', 0.27261658872028016), (u'president', 0.25123459196236664), (u'get', 0.2207194160382995), (u'World', 0.18481656864907453), (u'company', 0.17042562538053702)]
+[(u'technology', -0.45749998325024738), (u'processing', -0.25709212500220813), (u'network', -0.24061472746113383), (u'Venture', -0.17175366476685835), (u'software', -0.16760046067835779)]
+[(u'president', -0.45972616782173847), (u'war', -0.24347331964397265), (u'World', 0.22802389580258495), (u'market', 0.20552976675888118), (u'Act', 0.15610180947643792)]
+[(u'design', -0.47432172379337512), (u'language', -0.37547793221158299), (u'programming', -0.32086306978373075), (u'president', 0.18082774099156512), (u'time', -0.17066629555299312)]
+[(u'Administration', 0.37243004764820525), (u'world', 0.20599879182488506), (u'president', -0.19695807637333518), (u'official', 0.1637525746937393), (u'policy', 0.15240258746892457)]
+[(u'+', 0.28704598881498072), (u'get', 0.26783905881595538), (u'design', -0.26059457258550073), (u'[', 0.24026083022666053), (u'Administration', -0.20070326915757836)]
+[(u'+', 0.41555390853921714), (u'EchoStar', -0.33529122333806305), (u'subscription', -0.22891505293403616), (u'merger', -0.18288612182076161), (u'[', 0.17953610744435267)]
+[(u'+', -0.3956009469933206), (u'EchoStar', -0.3018829724105247), (u'subscription', -0.20643987510995157), (u'temperature', 0.18552562890374993), (u'merger', -0.16466343949664961)]
+[(u'million', -0.34018849571610993), (u'executive', -0.29607700120835939), (u'+', -0.24367498071258728), (u'chief', -0.23630668021274628), (u'investment', -0.23004084272256628)]
+[(u'temperature', -0.61115311789975768), (u'Spencer', -0.19305298730160375), (u'get', 0.18193433248280658), (u'climate', -0.17840773826782799), (u'+', -0.1754211534374194)]
+[(u'information', -0.31854572164964806), (u'software', -0.29038951502963456), (u'security', -0.24972232207496078), (u'vulnerability', -0.21992555786740958), (u'iDEFENSE', -0.20158996312642558)]
+[(u'/', -0.67683461010840629), (u'\\', -0.56564301851415877), (u'temperature', 0.13373356496447758), (u'information', 0.090922606847815543), (u'+', 0.077912707372031431)]
+[(u'law', -0.28046285356276579), (u'information', 0.22405537832147304), (u'security', 0.21626304742469044), (u'licence', -0.19542274810339319), (u'see', -0.19383675159526739)]
+[(u'use', 0.3009791424544152), (u'law', -0.24365311147547278), (u'see', 0.19666897652672877), (u'rich', -0.15704160234587591), (u'licence', -0.15073652578958494)]
+[(u'use', 0.25134397060658953), (u'think', -0.23451977877593175), (u'control', 0.22325467947886571), (u'mind', 0.19141205125195127), (u'see', -0.18894174773262107)]
+[(u'mind', 0.36857151750364087), (u'control', 0.35903463902160077), (u'psi', 0.21301996454715433), (u'use', -0.1695989731169826), (u'race', 0.1526399065551281)]
+[(u'film', -0.27641846578659318), (u'use', 0.22820824868305922), (u'movie', -0.2250971187187773), (u'see', -0.21165757701323731), (u'information', -0.16420994953450868)]
+[(u'get', -0.25517648852961111), (u'MaXLine', 0.23666945687120819), (u'F.B.I', 0.1781461319055252), (u'storage', 0.17418495788609087), (u'think', 0.15843854400369392)]
+[(u'MaXLine', -0.26978992991958778), (u'tax', 0.25153648402205248), (u'storage', -0.19691090226029262), (u'F.B.I', 0.16135597827635467), (u'work', -0.16103656565190705)]
+[(u'information', 0.20107318885974951), (u'picture', 0.16630341558732775), (u'file', -0.15292307115170328), (u'software', -0.14262392613828662), (u'case', 0.1418565679427784)]
+[(u'MaXLine', 0.3900611401705773), (u'storage', 0.28118912087507114), (u'use', -0.23750198345606363), (u'email', -0.16209144465655512), (u'group', -0.13359201037911758)]
+[(u'[', 0.22120943638519797), (u'Lynch', -0.21769922704483513), (u'computer', 0.19397498387862505), (u'tax', 0.17100572845364301), (u'file', 0.16996738429466093)]
+[(u'tax', -0.38975836838399591), (u'F.B.I', 0.18917600514527902), (u'coffee', -0.17589119529703226), (u'group', -0.17422256850607748), (u'energy', 0.16876257204508566)]
+[(u'file', 0.38052695472689263), (u'tax', 0.28660491283825978), (u'computer', -0.19681572197705707), (u'energy', -0.15745626991531314), (u'think', 0.15160187095701005)]
+[(u'diesel', -0.35497915328688345), (u'tax', 0.22683026336621354), (u'report', -0.19838010389838462), (u'button', 0.19007882863893108), (u'file', -0.18987224655342391)]
+[(u'diesel', -0.38976559313974379), (u'I/O', 0.26639015439980468), (u'report', -0.23380329656930376), (u'way', 0.22241584094804437), (u'file', -0.14837109763329434)]
+[(u'billion', 0.22836783932826829), (u'energy', -0.2278693647234801), (u'file', 0.19942545066874454), (u'space', 0.16036331709331703), (u'diesel', -0.15779443603572607)]
+[(u'way', -0.22773072813084552), (u'I/O', -0.20533453554538889), (u'file', 0.20508784138365971), (u'run', 0.18577393985236701), (u'diesel', -0.18068466619206547)]
+[(u'computer', 0.22499313818349129), (u'science', 0.19827102771782057), (u'friendship', -0.18375216710088016), (u'work', 0.18271187919319026), (u'person', -0.17988974680564215)]
+[(u'button', -0.26211125002528501), (u'player', -0.20671624481073483), (u'I/O', -0.19705015006678514), (u'play', -0.18175818762262411), (u'collaboration', 0.1759723101519261)]
+[(u'space', 0.22808146110091354), (u'office', 0.19582615920164911), (u'work', 0.18691692445114269), (u'feet', 0.16604373028248859), (u'way', -0.16350286849961262)]
+[(u'file', -0.27588227870276583), (u'billion', 0.25031977257947924), (u'friendship', -0.19612092155244301), (u'computer', -0.1847575273175569), (u'get', 0.16522472177324873)]
+[(u'billion', 0.2804809083604779), (u'person', 0.18915149099684592), (u'diesel', -0.17569939448856273), (u'tribe', 0.15643110543632469), (u'friendship', 0.14960269913981644)]
+[(u'friendship', 0.21403462417751132), (u'button', 0.21103376526657247), (u'want', -0.20261713601304418), (u'diesel', -0.19968841351273212), (u'player', 0.17439061101977518)]
+[(u'ice', 0.27971677262232869), (u'search', 0.20563387992458695), (u'wireless', 0.18515334056051191), (u'file', 0.18258543518692572), (u'something', -0.16505952738854193)]
+[(u'wireless', 0.2704685081657609), (u'collaboration', -0.2058764584143716), (u'button', -0.17825603401797652), (u'Security', -0.16069452207204143), (u'file', -0.1457477532469986)]
+[(u'ice', -0.27962222980064655), (u'code', -0.21180297279118032), (u'o', -0.20244014377682346), (u'time', -0.1917717405435739), (u'file', 0.18770728164537653)]
+[(u'hextab', 0.42419187889012228), (u'code', -0.23566662209547096), (u'file', 0.22575347728345005), (u'c', 0.14213417692141858), (u'codec', -0.13234732947674768)]
+[(u'wireless', -0.30310110926827494), (u'billion', -0.21681345693415463), (u'web', 0.20001758750481824), (u'fake', 0.19009638259062495), (u'hextab', 0.17631662912175808)]
+[(u'hextab', 0.2662031071430544), (u'message', -0.20862265770481481), (u'want', 0.19522046679479818), (u'ice', 0.15832294177086254), (u'I/O', -0.15252110164718463)]
+[(u'hextab', -0.36388863954348555), (u'code', -0.24995658107672689), (u'codec', -0.16878258872767699), (u'o', 0.147541480375459), (u'wireless', -0.14555173146536962)]
+[(u'way', -0.20423615402844195), (u'get', 0.19484053123227876), (u'find', -0.19063440291842787), (u'message', -0.1766865495617114), (u'web', 0.1567693734015137)]
+[(u'fake', 0.21125821291750776), (u'web', 0.16988588963572571), (u'code', 0.16951474793062105), (u'Security', -0.16918469546854858), (u'think', 0.13540444351583208)]
+[(u'way', 0.17250936944593381), (u'something', -0.16970160439231269), (u'hextab', 0.16233119082736766), (u'help', 0.14992955224221605), (u'religion', -0.14915622094893469)]
+[(u'time', -0.27410427416836908), (u'hextab', 0.18307756097745215), (u'I/O', -0.18271914049572388), (u'government', 0.17355794126543483), (u'work', 0.15013095219526457)]
+[(u'message', 0.20256054525481759), (u'set', 0.18224883341669135), (u'check', 0.17663482158224808), (u'web', 0.16344569814751536), (u'law', -0.1596210933809013)]
+[(u'hextab', 0.25152853620716814), (u'monkey', 0.22808885191400571), (u'use', 0.18047929051033726), (u'speech', -0.17341052861747713), (u'state', 0.16664516818812514)]
+[(u'Security', -0.21612361264576321), (u'search', 0.19670277866275448), (u'security', -0.14970959893351621), (u'access', 0.14397445109423387), (u'message', 0.14292342411615638)]
+[(u'way', 0.24300472550234187), (u'work', -0.23952817678198465), (u'monkey', 0.19377361891004247), (u'exmh', -0.17981395292304631), (u'get', 0.16123295701926885)]
+[(u'monkey', 0.37899504816343055), (u'state', 0.22168593583179555), (u'speech', 0.17989217565402743), (u'country', -0.15315762356955454), (u'law', 0.13184825173644329)]
+[(u'someone', 0.18527919669706333), (u'support', 0.1499179913891531), (u'power', -0.14846589430478863), (u'think', -0.14163901254273756), (u'speech', -0.13257415572794362)]
+[(u'speech', 0.24836432418592136), (u'monkey', -0.24144005163374549), (u'work', -0.22859544875333995), (u'message', 0.22545922277046049), (u'use', 0.15681330453967227)]
+[(u'am', -0.20294016181228067), (u'message', 0.16874893090074272), (u'time', -0.15268473889792533), (u'speech', 0.14808659311138209), (u'mail', 0.12814251207308003)]
+[(u'speech', -0.22343770572971144), (u'monkey', 0.21760270605830459), (u'web', -0.17253250758702723), (u'energy', -0.16349690035328496), (u'company', -0.15922019319439815)]
+[(u'check', -0.26912928258894525), (u'hextab', 0.14526525746701607), (u'use', 0.14466267913174266), (u'get', -0.14369136377140806), (u'society', 0.14296043941888917)]
+[(u'speech', 0.22444192903906987), (u'work', 0.18128035312487037), (u'check', -0.176617508252291), (u'hextab', 0.15179132610015025), (u'someone', -0.13461879536948171)]
+[(u'monkey', -0.23771517283021773), (u'use', -0.20186331117328885), (u'check', -0.1568625930727823), (u'send', 0.12781571001824049), (u'want', -0.1250229148529631)]
+[(u'Security', 0.18010163092791487), (u'think', -0.17934808293466792), (u'speech', 0.15915954239928407), (u'something', -0.15726493436207323), (u'regulation', -0.13473381458693295)]
+[(u'speech', -0.21456526261726205), (u'program', -0.17255223846587683), (u'am', -0.1723645698810877), (u'word', -0.15944496228954447), (u'get', 0.14716429125255343)]
+[(u'regulation', -0.19297353691694535), (u'way', -0.18507255788898477), (u'speech', 0.17449896608032597), (u'monkey', 0.1592851370497915), (u'set', -0.13486612709244886)]
+[(u'speech', 0.26739649911222357), (u'power', 0.16978337354358225), (u'energy', -0.16665313524013026), (u'find', 0.1565723195250929), (u'problem', 0.13923115862684748)]
+[(u'sex', 0.19181385235547727), (u'energy', -0.17779622517074747), (u'monkey', 0.15795756630880325), (u'lot', 0.14982365251466939), (u'time', -0.14826475481359438)]
+[(u'web', 0.21643953162780927), (u'system', -0.17131916420220455), (u'set', -0.15764575721409754), (u'increase', 0.12404128373840144), (u'swap', 0.1237212187562874)]
+[(u'want', -0.25293441680965478), (u'time', 0.1554908616582874), (u'am', 0.1527438278340397), (u'list', -0.14142834821890635), (u'collaboration', -0.12275763709506231)]
+[(u'increase', 0.20176331353668847), (u'society', -0.15230183747371664), (u'story', -0.15139371306782978), (u'greenhouse', 0.1473377158075003), (u'am', 0.13752202820886292)]
+[(u'power', 0.2078333243856457), (u'regulation', -0.20122448258078368), (u'help', -0.1715383552388656), (u'speech', -0.16112184355739426), (u'problem', 0.144830856517835)]
+[(u'nanotechnology', -0.25726944265845958), (u'research', -0.25051506403802293), (u'Lawrence', 0.17123357400235878), (u'regulation', -0.14674470334813111), (u'laptop', -0.13052372956794264)]
+[(u'nanotechnology', -0.21155449520290459), (u'Lawrence', -0.18753698851620523), (u'research', -0.16880756046252166), (u'am', 0.15150110581748893), (u'useless', -0.12362018751451763)]
+[(u'problem', -0.17315271949358835), (u'sex', 0.15645912837611087), (u'War', 0.14888034048687016), (u'mail', 0.14371787852180268), (u'set', 0.13941630326839421)]
+[(u'system', -0.22089961529214505), (u'see', 0.15556630303612887), (u'news', -0.14732120446147173), (u'study', -0.13455958762458742), (u'end', 0.11614262305657565)]
+[(u'man', 0.14822111484081599), (u'course', -0.14246958644259422), (u'something', 0.12749256201834677), (u'society', -0.11619083868565325), (u'food', -0.11283296093776182)]
+[(u'set', 0.16241519167459981), (u'number', 0.14440053276561754), (u'pick', 0.14085947299230261), (u'mail', -0.11979295152413438), (u'something', -0.11376815902179779)]
+[(u'maintainer', 0.15422040604246148), (u'time', -0.15414685840778924), (u'mark', -0.15388460972113893), (u'see', -0.14377095357769193), (u'business', -0.13760146379932828)]
+[(u'list', -0.2511867549420661), (u'rpm', -0.18706467616192352), (u'Lawrence', 0.18335338287257552), (u'install', -0.14233519283804877), (u'society', 0.1319176635475395)]
+[(u'food', -0.24243025351985126), (u'help', -0.13982746664038498), (u'stuff', -0.13932319584428099), (u'word', 0.12937225312120748), (u'system', -0.11916541687232018)]
+[(u'system', -0.14678719301348656), (u'exmh', 0.14390266328123522), (u'mail', 0.13633799656387005), (u'security', -0.132200870480433), (u'room', -0.13100391646743315)]
+[(u'food', -0.22009239492645746), (u'something', -0.17839150909801141), (u'word', -0.15640081249921856), (u'get', 0.14625753888451173), (u'set', -0.12817009619406891)]
+[(u'something', -0.15316225759526536), (u'see', -0.11550802831986043), (u'War', 0.11526079144088713), (u'fact', -0.11507580636608034), (u'set', -0.10947455049385763)]
+[(u'way', -0.19480116364772579), (u'antenna', -0.1638233882650508), (u'problem', 0.11812201605293028), (u'company', 0.1160293148219175), (u'stuff', 0.11425183026693427)]
+[(u'food', 0.2722222217392079), (u'stuff', -0.24196142960701936), (u'room', 0.13342080537279749), (u'list', 0.13272092574540004), (u'antenna', -0.12199616735125503)]
+[(u'word', -0.17571952646944236), (u'company', 0.15994363973389272), (u'thing', 0.13752844463613029), (u'try', -0.13302131367996908), (u'power', -0.12951164670440574)]
+[(u'food', -0.40974713373662319), (u'help', 0.15993133474369156), (u'train', -0.14928330088138037), (u'run', 0.14147301984169058), (u'archbishop', 0.1303407702428091)]
+[(u'food', 0.16908341374822441), (u'run', 0.14791638840797702), (u'something', -0.14522798341380388), (u'problem', 0.14376911416965346), (u'antenna', 0.12802949168316483)]
+[(u'antenna', -0.1580332791504471), (u'want', 0.13950534069332288), (u'thing', 0.12954326946389888), (u'anything', 0.11297884360060029), (u'system', -0.11273034957609379)]
+[(u'food', -0.16928569029620172), (u'find', 0.15662291952016014), (u'seem', 0.12935226913858941), (u'stuff', -0.12930762131533008), (u'number', 0.12504542115917053)]
+[(u'food', -0.17841321584310937), (u'number', 0.1672763021284345), (u'anyone', -0.16139238348800494), (u'sex', 0.14160895761564346), (u'prize', 0.12361980007331337)]
+[(u'time', -0.17025306493301268), (u'population', -0.1683780505117973), (u'wealth', -0.13518452255253466), (u'[', -0.13442710598160146), (u'thing', 0.12647437000864156)]
+[(u'number', 0.1696325364277361), (u'gay', 0.12767867781678235), (u'state', -0.12106208114091967), (u'power', -0.11671579067939349), (u'end', 0.11574496439912947)]
+[(u'find', -0.14122636775138983), (u'process', 0.13136267187173054), (u'fact', 0.12834089643632871), (u'fall', 0.11536865062758049), (u'gay', -0.1129759334956377)]
+[(u'find', -0.19215548503089638), (u'rpm', 0.18006261328640694), (u'word', -0.17264200596886678), (u'government', 0.13015211628020257), (u'prize', -0.11579600019030431)]
+[(u'system', -0.17921943655249317), (u'wealth', 0.16250457878299143), (u'prize', 0.15562018058098279), (u'list', 0.14278011532843826), (u'Lawrence', 0.1178588010982413)]
+[(u'yer', -0.18022074165494462), (u'wealth', -0.1239702550255412), (u'set', 0.11779246358318107), (u'list', -0.11756959978319596), (u'life', -0.11070797225544154)]
+[(u'pick', 0.19993631244447291), (u'antenna', 0.1396190903065874), (u'run', 0.13713704066393775), (u'prize', -0.13621320674744206), (u'stuff', -0.12959371314370499)]
+[(u'prize', -0.27909439789610652), (u'pick', -0.22204303463532055), (u'{', -0.1095907838931518), (u'half', -0.10606236091578468), (u'wealth', 0.094265956532292403)]
+[(u'pick', -0.25243671913645166), (u'list', -0.20306234253883082), (u'stuff', -0.13846131235880574), (u'yer', 0.13418804120469241), (u'life', 0.13139766781820858)]
+[(u'problem', 0.16800028838789111), (u'set', 0.13433222481259907), (u'seem', 0.13311070154868762), (u'pick', 0.12597706716817922), (u'server', -0.12357954165307503)]
+[(u'point', -0.1465864216804843), (u'part', -0.1361723768330283), (u'society', 0.13481374829873427), (u'want', 0.1342006122732283), (u'come', -0.11908563437325309)]
+[(u'pick', -0.19391570082776791), (u'system', -0.17232340284149689), (u'server', -0.17019107813531276), (u'list', 0.14139648261817483), (u'set', 0.13491520066565829)]
+[(u'oil', 0.1518437196037988), (u'online', -0.12104420846953437), (u'signature', -0.11534387840012937), (u'population', -0.11520090664133374), (u'prize', -0.11468735930300075)]
+[(u'oil', -0.17961201210801128), (u'anyone', 0.15516662961641936), (u'mail', 0.14905339326011641), (u'lot', -0.14785982953034416), (u'o', 0.12880047555462756)]
+[(u'want', -0.16595065945960372), (u'stuff', 0.15064566494332848), (u'blood', -0.13672319208472797), (u'oil', 0.12935175912956642), (u'number', 0.12510924032294732)]
+[(u'stuff', 0.15962630459368354), (u'code', 0.12628560322239327), (u'word', -0.12132905870995959), (u'thing', 0.11979303781645444), (u'rpm', 0.11357070531418108)]
+[(u'prize', -0.14780407482475125), (u'read', -0.14455178204210323), (u'horse', 0.12563217059369602), (u'email', -0.1197255959901634), (u'storage', 0.11326915859150806)]
+[(u'run', 0.16904993119322445), (u'number', -0.15606906013681229), (u'maintainer', -0.14661427517197789), (u'word', 0.13161894220128229), (u'rpm', 0.12383980840836495)]
+[(u'party', 0.17863899952163143), (u'mail', -0.13357035181555552), (u'house', -0.12532756881692203), (u'problem', -0.11989477489875275), (u'look', -0.11909788837616175)]
+[(u'house', 0.15536942490656078), (u'email', 0.13179306817935324), (u'wealth', -0.12190021672053461), (u'story', 0.12168963529778991), (u'pain', -0.11602931866173288)]
+[(u'word', -0.20803438954855066), (u'yer', -0.16363263968307301), (u'course', 0.13946819052556081), (u'story', 0.13170537547254671), (u'look', 0.12466106442550053)]
+[(u'house', 0.15948180550979088), (u'storage', 0.13306178897645382), (u'software', 0.12290463183510383), (u'oil', -0.11753635108863986), (u'bit', 0.11614329898507023)]
+[(u'life', -0.1352013098878882), (u'course', -0.13342960698810588), (u'house', -0.13336230410329464), (u'spam', -0.12368299167811404), (u'look', -0.11965156141344697)]
+[(u'run', 0.14509759277051096), (u'come', -0.11168921816409917), (u'word', 0.10795577956687608), (u'wealth', 0.106653737445234), (u'find', -0.10534806011942445)]
+[(u'server', -0.2272412015609819), (u'nothing', 0.14320495325326865), (u'problem', -0.11541941047125971), (u'storage', 0.10515544838210752), (u'floppy', 0.098828909602415485)]
+[(u'read', -0.16957222142010153), (u'oil', -0.14043422093066377), (u'pick', -0.1148300343875875), (u'house', -0.1139541429243693), (u'example', -0.10781057469428963)]
+[(u'read', 0.20529392515007552), (u'server', -0.1470886612652941), (u'oil', 0.14635299501211071), (u'maintainer', 0.13270454005037124), (u'pick', 0.12329925899377027)]
+[(u'idea', -0.14047167358607052), (u'seat', -0.13650797875720175), (u'server', 0.12785905268515765), (u'am', 0.11084818554966316), (u'class', -0.109129870695894)]
+[(u'thing', 0.17261011773060889), (u'client', 0.13451091318222594), (u'server', 0.12743681490030681), (u'get', 0.10076079889811167), (u'o', -0.098307750659785809)]
+[(u'run', 0.12513310958209348), (u'lot', 0.11413427134900665), (u'freedom', -0.11314973564486784), (u'party', -0.1092911112326686), (u'idea', -0.10657125341169248)]
+[(u'storage', 0.21160744715846802), (u'list', 0.14488357012546177), (u'MaXLine', -0.14029213816486952), (u'done', 0.12928566009777842), (u'find', -0.12076478425819795)]
+[(u'number', 0.19161093164139084), (u'storage', -0.17207368597510975), (u'anyone', -0.14040984608891785), (u'read', 0.13764584108405367), (u'course', -0.12921894582294663)]
+[(u'am', -0.15961994602534466), (u'storage', 0.15219431424452665), (u'phone', 0.14276245485285416), (u'content', -0.13977806641703577), (u'call', 0.12598808950529583)]
+[(u'race', 0.20910943369413737), (u'contrada', 0.17836070413377259), (u'word', 0.14974071813898909), (u'horse', 0.14416941814004613), (u'jockey', 0.14268856330701804)]
+[(u'read', 0.19757780514394227), (u'pick', 0.12826062940502375), (u'signature', 0.1260359701752771), (u'bit', -0.12568192405097897), (u'gay', 0.11734566147524135)]
+[(u'word', -0.13397103226235538), (u'mail', -0.12568087340172851), (u'text', -0.11856205734566122), (u'[', -0.11701962284701509), (u'race', 0.10990220048970677)]
+[(u'user', -0.14598873509457996), (u'man', 0.11710408002808563), (u'server', -0.11420336892815219), (u'oil', 0.11230845750269892), (u'word', 0.10407060060213379)]
+[(u'process', 0.12656422292536282), (u'word', -0.11928775975725808), (u'spam', 0.11717358148325517), (u'opinion', 0.11634009911076261), (u'population', -0.10900596562267741)]
+[(u'server', -0.15655304217047231), (u'phone', -0.12450104854688991), (u'end', -0.11350456271849084), (u'job', 0.11266407849491165), (u'mail', 0.11245193536413614)]
+[(u'server', 0.14592157496519456), (u'am', -0.14146760729723445), (u'storage', -0.12343368724692243), (u'seem', -0.12243369117711732), (u'mail', -0.11289006067251448)]
+[(u'server', -0.16909914904382972), (u'woman', -0.12053357234975959), (u'spam', 0.11947248251390495), (u'set', 0.11347180823467515), (u'kind', -0.11171239569714468)]
+[(u'server', -0.16864917875256832), (u'hardware', 0.13361892850086754), (u'program', -0.13127510497637812), (u'race', 0.12925672435523103), (u'contrada', 0.11941177839369876)]
+[(u'rpm', -0.13683317165643982), (u'system', -0.13524581781537653), (u'menu', 0.12771526906620176), (u'party', 0.10922989133233725), (u'mayor', -0.10558951301432583)]
+[(u'management', 0.19304747228656255), (u'content', 0.14441834571255355), (u'tell', -0.14362163357148378), (u'start', -0.11706278135887316), (u'spam', 0.11323120086927789)]
+[(u'FoRK', 0.14000225564167854), (u'gay', -0.13381655792028255), (u'number', 0.12770564619318872), (u'set', 0.1126347653126497), (u'point', -0.10841289004285931)]
+[(u'number', -0.18382267067087704), (u'someone', -0.12895002581325213), (u'place', 0.11890116992226255), (u'send', 0.10323066049782441), (u'management', -0.10223244943384314)]
+[(u'anything', -0.15651356536989827), (u'spam', -0.15227347868282257), (u'thing', -0.14212173243525375), (u'bot', 0.14000057959087839), (u'user', 0.13928011219771613)]
+[(u'management', 0.14105007265870162), (u'mayor', 0.12183276150778678), (u'sort', 0.11122140716980609), (u'spam', 0.10755799619263347), (u'oil', 0.10401530484758754)]
+[(u'storage', 0.15572137275370543), (u'man', 0.14688691022681763), (u'server', -0.12218771125242388), (u'release', 0.11262482776884652), (u'job', -0.11077409672570354)]
+[(u'number', -0.11565766652264374), (u'word', -0.11560938596153195), (u'house', 0.1150465180201727), (u'build', -0.097759044924344007), (u'phone', 0.09650301408200887)]
+[(u'someone', -0.16189549054106031), (u'exist', 0.13055137736690389), (u'user', 0.12116893607227834), (u'version', -0.12054594909016704), (u'bit', -0.11868879134390005)]
+[(u'project', -0.11928028122667077), (u'speed', -0.11577226633241526), (u'point', 0.11187000337867618), (u'hardware', -0.10819849086873785), (u'call', 0.10304127236434746)]
+[(u'story', -0.1310306553296775), (u'decentralization', -0.12497455996888766), (u'machine', -0.12180531846767857), (u'mass', -0.11140103422675851), (u'anyone', -0.10552893884513506)]
+[(u'group', 0.14635311207425389), (u'call', 0.1292460430762731), (u'mass', -0.12312103189326937), (u'part', -0.12015481658307554), (u'documentation', -0.11553484000576218)]
+[(u'moon', 0.16721531851620733), (u'mass', 0.14380072282265188), (u'run', -0.13233526947090846), (u'column', 0.12883880245404356), (u'mail', 0.11420066769973405)]
+[(u'version', 0.12355213184144649), (u'opinion', -0.11552899064126852), (u'bot', -0.11414883901267546), (u'moon', -0.1127918778575997), (u'pay', -0.10364940848393055)]
+[(u'text', 0.13701567984095425), (u'party', -0.12166760905562045), (u'content', 0.11342700195630215), (u'spam', 0.11001995022816095), (u'today', 0.10859057285621737)]
+[(u'am', -0.17767219151542307), (u'gecko', -0.14625046656630505), (u'try', 0.14104172294105158), (u'bot', -0.11594245354087383), (u'anyone', 0.10256879360200673)]
+[(u'management', -0.14752584329924345), (u'place', -0.11986332195194882), (u'question', -0.11726215033972198), (u'done', -0.11273203257585766), (u'exist', 0.10416697741615734)]
+[(u'rpm', -0.13225550639164507), (u'strength', 0.13081883885914189), (u'gpg', -0.11862602525972385), (u'maintainer', -0.11557710282465625), (u'man', -0.1150717273776677)]
+[(u'woman', 0.14403971386535067), (u'start', 0.13628751672110917), (u'opinion', 0.13316519393039988), (u'business', -0.12099308777716138), (u'server', 0.12061970152835827)]
+[(u'version', 0.17571272779544156), (u'idea', -0.14241939786480637), (u'part', -0.11749688019435463), (u'speak', 0.11275001806994843), (u'train', -0.11248002779009843)]
+[(u'woman', 0.23034634959019173), (u'mayor', 0.13135506659793822), (u'FoRK', 0.12433122474295394), (u'strength', 0.12146613149310795), (u'server', -0.10573644798984978)]
+[(u'police', 0.15448502329066277), (u'try', -0.13894377101248231), (u'party', 0.11714677914609012), (u'am', 0.11516595493402823), (u'menu', 0.1036962794708208)]
+[(u'population', -0.15826825677826115), (u'format', 0.15415313070147979), (u'SubSection', 0.12205020917212227), (u'course', 0.12141294640417323), (u'video', 0.11665166656465037)]
+[(u'done', 0.13496357981136242), (u'box', 0.12173953227095952), (u'part', -0.12047839175497345), (u'population', 0.11372813787321648), (u'{', -0.10304082573590485)]
+[(u'woman', -0.13062822359261064), (u'anyone', 0.12371027053692406), (u'add', 0.11383921147000246), (u'text', 0.1087164057371529), (u'exmh', -0.10293166690537062)]
+[(u'gay', 0.13038164019633275), (u'idea', 0.12649569519597975), (u'machine', 0.12007565473325926), (u'content', -0.11409854025766364), (u'SubSection', 0.1081254008937113)]
+[(u'pay', 0.14555580273385846), (u'format', -0.12848886510954582), (u'done', -0.12736465907119932), (u'law', 0.12554259763257242), (u'anything', 0.10768232244617248)]
+[(u'gecko', 0.15409981880761228), (u'question', -0.11469580118329945), (u'kind', -0.11300296981907366), (u'house', -0.10335234303029388), (u'moon', 0.10140526253647487)]
+[(u'user', -0.17559947402240034), (u'gecko', -0.15242624650948008), (u'worth', -0.13104456017703617), (u'city', -0.11198867519518117), (u'done', -0.10715786545274522)]
+[(u'gecko', 0.1754898167651564), (u'SubSection', 0.15100682874596277), (u'done', -0.15071960957726713), (u'woman', -0.12997275373493686), (u'application', -0.12537553286742481)]
+[(u'gecko', 0.22174171679227656), (u'job', 0.1790388416297376), (u'woman', -0.14298519229847231), (u'modem', -0.12196234383407181), (u'place', 0.10996395632335329)]
+[(u'SubSection', -0.22156078210475053), (u'format', 0.16754439056418197), (u'release', 0.13017452771099472), (u'Section', -0.12498134154793394), (u'exist', 0.11893273562948406)]
+[(u'gecko', -0.12412812459169302), (u'format', -0.11937659026794638), (u'read', -0.10631710018980388), (u'dont', 0.10060302453861471), (u'work', 0.10009173012446169)]
+[(u'SubSection', -0.25965433327202814), (u'Section', -0.14672419310647392), (u'moon', -0.12187693191981941), (u'format', 0.11228304356855733), (u'mass', 0.11187224864192918)]
+[(u'gecko', 0.20552361442130429), (u'server', -0.1574356806891444), (u'menu', -0.12473781952712412), (u'FoRK', 0.12443023344885264), (u'SubSection', 0.12431380846513278)]
+[(u'box', -0.16138983771142917), (u'SubSection', -0.12004528528261794), (u'park', 0.11524238904462195), (u'house', 0.10639225083922123), (u'project', 0.10447634011100888)]
+[(u'gecko', -0.14837351424638914), (u'part', -0.14813119614703607), (u'mayor', -0.13433975340497281), (u'floppy', -0.12855991237815512), (u'gay', 0.12548232188029884)]
+[(u'police', -0.14744066405561179), (u'someone', -0.14742658665196987), (u'seem', 0.11881196786411442), (u'law', 0.11086716493788193), (u'past', -0.096786532631100472)]
+[(u'gecko', -0.15516260536604481), (u'project', 0.13555310263880491), (u'version', -0.1089086877724906), (u'someone', -0.10265797314716933), (u'read', -0.10036090930283573)]
+[(u'user', -0.1617516274320952), (u'sort', 0.13852470424791657), (u'population', -0.11697799479540183), (u'gecko', 0.11517926298779842), (u'build', -0.10452767839145814)]
+[(u'mayor', 0.11963726223467666), (u'SubSection', -0.10695481215030501), (u'aid', 0.10440754464890309), (u'train', -0.10147461561083687), (u'part', -0.10143203335121112)]
+[(u'modem', 0.12577624845368959), (u'lack', 0.10340735278456104), (u'number', 0.10288626922025169), (u'account', 0.10116033705596007), (u'SubSection', -0.095513560775152093)]
+[(u'format', -0.14234555432830764), (u'job', -0.12855420720613089), (u'man', 0.11527869428408527), (u'place', 0.10412030486858069), (u'modem', 0.089015760096507593)]
+[(u'exist', -0.14874817595708073), (u'police', -0.12623033195397831), (u'anyone', -0.12307166537384602), (u'read', -0.11776128407176402), (u'moon', 0.10869742924183629)]
+[(u'mayor', -0.14035200354255531), (u'place', 0.13305891091095037), (u'park', -0.10872504623503726), (u'insert', 0.10008203210001511), (u'biz', 0.092462158385935564)]
+[(u'gecko', 0.16672891760614639), (u'window', -0.13687179811748648), (u'part', -0.13381958446413392), (u'seem', -0.12522132336370984), (u'modem', -0.12005278238051773)]
+[(u'gay', -0.12410066103928692), (u'sort', 0.11724269759539202), (u'hardware', -0.10732704175695262), (u'power', -0.096544593317266877), (u'process', 0.091997878046486778)]
+[(u'park', 0.14935491900392084), (u'job', -0.12836584072450999), (u'sense', -0.10180143235013159), (u'text', 0.09450060747111233), (u'anything', 0.092436387164034794)]
+[(u'society', -0.10740159754921626), (u'nmh', 0.10343543540384229), (u'SubSection', 0.10037514065105865), (u'past', -0.099551613117248361), (u'text', 0.0962394280213342)]
+[(u'C++', -0.13904544804208005), (u'list', 0.1182088092432734), (u'rock', -0.11679877907879098), (u'story', -0.11327138323112305), (u'hardware', -0.11221703961744314)]
+[(u'gecko', 0.14030582098588892), (u'gay', 0.11435081769888394), (u'course', -0.11162151232091982), (u'someone', -0.11047125411627008), (u'job', -0.10745390435935301)]
+[(u'place', 0.14783259950691455), (u'menu', -0.14661264315067987), (u'police', 0.12004526434215364), (u'floppy', -0.11291414562250954), (u'version', 0.10402469782392086)]
+[(u'job', -0.12001484531245027), (u'exist', -0.11946412164786036), (u'moon', -0.10038503339494981), (u'done', 0.10001871679658952), (u'dude', -0.099616601714529587)]
+[(u'account', -0.12328541394485806), (u'sell', 0.11011231665041896), (u'email', 0.10473804085808602), (u'spec', 0.10290794026111094), (u'show', 0.099137812178837798)]
+[(u'nmh', -0.17719383388259358), (u'log', 0.12529256570069452), (u'exist', -0.11282395974466503), (u'park', 0.10948508653875774), (u'SubSection', 0.10148570754952305)]
+[(u'park', -0.16211961959283649), (u'job', -0.12462174711179384), (u'vine', 0.11460707157303346), (u'size', 0.10804263473406354), (u'come', -0.10131276773597082)]
+[(u'done', 0.14190753004646614), (u'order', -0.11828099733998891), (u'floppy', -0.11746809916107812), (u'maintainer', 0.1008618186727219), (u'come', 0.097680470547533427)]
+[(u'sort', 0.11468158377226866), (u'exmh', -0.10888859897722881), (u'info', -0.1059307696499696), (u'version', -0.10538261589796166), (u'try', 0.10378663853791995)]
+[(u'hardware', -0.17303288019060084), (u'list', 0.11340813573841645), (u'sort', -0.11222300756787143), (u'seem', 0.11084861646740565), (u'sent', 0.10774195146363592)]
+[(u'school', 0.11369271366164162), (u'am', -0.11056082288716972), (u'family', -0.10303031123935324), (u'question', 0.10286818031918969), (u'show', 0.10057114639424779)]
+[(u'mayor', -0.11231208797038489), (u'population', -0.10194327429269134), (u'half', -0.10183798628021726), (u'rock', -0.081235290413131989), (u'done', -0.079647483938147232)]
+[(u'install', 0.14219036312941438), (u'record', -0.1072574585487633), (u'done', -0.10697433024395991), (u'park', 0.10681865702078991), (u'php', 0.10521721881177962)]
+[(u'install', 0.10606145395025647), (u'application', -0.10508366636991506), (u'SubSection', 0.095688788061757873), (u'machine', 0.092354907767780742), (u'test', -0.09218004851237685)]
+[(u'player', 0.12216379567085456), (u'try', 0.091303171948592013), (u'post', -0.084422997978815986), (u'memory', -0.082748694493835762), (u'everyone', -0.082504326790962715)]
+[(u'size', 0.16010104600569813), (u'book', -0.11991231331688995), (u'sort', 0.11486803569343008), (u'nice', -0.10462568417909128), (u'stop', -0.10002250396605973)]
+[(u'command', 0.15577286991946951), (u'vine', -0.11631548911362563), (u'cover', 0.11309041744520065), (u'water', 0.11101093112523118), (u'come', 0.1059773087817705)]
+[(u'version', -0.154903032604568), (u'hardware', 0.12852642696213487), (u'water', 0.12441335748033132), (u'park', -0.11967111544382265), (u'exist', 0.1146576211593793)]
+[(u'shiver', 0.11586654360595044), (u'government', 0.10093036053230163), (u'version', -0.10059809637576039), (u'info', -0.10027928371325265), (u'building', 0.097765911331706437)]
+[(u'school', 0.11161668294039914), (u'place', 0.10800742328806903), (u'read', -0.10696760598179067), (u'vine', -0.09899055359884297), (u'mayor', -0.095135306729338065)]
+[(u'job', 0.1345674593665202), (u'RE', 0.11891120056610556), (u'hardware', -0.11092195244100442), (u'anyone', -0.11020252756707237), (u'software', 0.10493716633543569)]
+[(u'size', 0.1265020212062917), (u'nice', 0.12155337808171147), (u'map', 0.11215179616256533), (u'guy', -0.10133807754409623), (u'ass', -0.10046660711485254)]
