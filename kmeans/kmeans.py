@@ -1,6 +1,7 @@
 #encoding: utf-8
 
 import itertools
+import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 import seaborn as sns
@@ -16,7 +17,9 @@ def main():
 
     #PCA
     pca = sklearn.decomposition.PCA(2)    
-    pca = pca.fit_transform(features);
+    pca.fit_transform(features);
+
+    print pca.explained_variance_ratio_
     
     kmeans_model = KMeans(n_clusters=3, random_state=10).fit(pca)
     labels = kmeans_model.labels_
